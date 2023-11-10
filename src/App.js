@@ -10,21 +10,21 @@ function App() {
          <h1>Juegos K</h1>
       </div>
       <h2 className="etiqueta">1 Jugador</h2>
-      <div className="juego"><img src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"></img></div>
-      <div className="juego"><img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/004.png"></img></div>
-      <div className="juego"><img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/004.png"></img></div>
+      <div className="juego"><img src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg" alt="pikapika"></img></div>
+      <div className="juego"><img src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg" alt="pikapika"></img></div>
+      <div className="juego"><img src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg" alt="pikapika"></img></div>
       <br></br>
-      <div className="juego"><img src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"></img></div>
-      <div className="juego"><img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/004.png"></img></div>
-      <div className="juego"><img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/004.png"></img></div>
+      <div className="juego"><img src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg" alt="pikapika"></img></div>
+      <div className="juego"><img src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg" alt="pikapika"></img></div>
+      <div className="juego"><img src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg" alt="pikapika"></img></div>
       <h2 className="etiqueta">2 Jugadores</h2>
-      <div className="juego"><img src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"></img></div>
-      <div className="juego"><img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/004.png"></img></div>
-      <div className="juego"><img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/004.png"></img></div>
+      <div className="juego"><img src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg" alt="pikapika"></img></div>
+      <div className="juego"><img src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg" alt="pikapika"></img></div>
+      <div className="juego"><img src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg" alt="pikapika"></img></div>
       <br></br>
-      <div className="juego"><img src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"></img></div>
-      <div className="juego"><img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/004.png"></img></div>
-      <div className="juego"><img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/004.png"></img></div>
+      <div className="juego"><img src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg" alt="pikapika"></img></div>
+      <div className="juego"><img src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg" alt="pikapika"></img></div>
+      <div className="juego"><img src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg" alt="pikapika"></img></div>
       </div>
       </>
    )
