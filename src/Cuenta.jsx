@@ -8,4 +8,4 @@ function Cuenta() {
         </>
     )
 }
-
+export default Cuenta;
