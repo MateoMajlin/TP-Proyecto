@@ -4,3 +4,39 @@ body{
 div{
     background-color: white;
 }
+.top {
+  text-align: right;
+}
+
+.merengue {
+  color: #ff6b6b;
+}
+
+Form {
+  margin-top: 20px;
+}
+
+Form.Label {
+  font-weight: bold;
+}
+
+Form.Control {
+  margin-bottom: 10px;
+}
+
+Button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+Button:hover {
+  background-color: #45a049;
+}
