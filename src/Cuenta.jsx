@@ -38,3 +38,4 @@ function BasicExample() {
 
 
 export default Cuenta;
+export default BasicExample;
