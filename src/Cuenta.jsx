@@ -9,11 +9,7 @@ function Cuenta() {
         <h2 className="top"><Link to="/">Inicio</Link></h2>
         <h1 className={cuenta.merengue}>Cuenta lul</h1>
         </>
-    )
-}
-function BasicExample() {
-  return (
-    <Form>
+        <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
@@ -33,9 +29,8 @@ function BasicExample() {
         Submit
       </Button>
     </Form>
-  );
+    )
 }
 
-
 export default Cuenta;
-export default BasicExample;
+
