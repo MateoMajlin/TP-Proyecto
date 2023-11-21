@@ -21,7 +21,6 @@ function App() {
       <h2 className="etiqueta">2 Jugadores</h2>
       <div className="juego"><Link to="https://poki.com/es/g/last-warriors"><img src="https://img.poki.com/cdn-cgi/image/quality=78,width=204,height=204,fit=cover,f=auto/f3c7261a2d4b643efa146655aee238ad.jfif" alt="pikapika"></img></Link></div>
       <br></br>
-      </div>
       </>
    )
 }
