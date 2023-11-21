@@ -42,7 +42,7 @@ function Cuenta() {
         <h1 className={cuentaStyles["cuenta-merengue"]}>Cuenta lul</h1>
         {loggedIn ? (
           <p className={cuentaStyles["cuenta-success-message"]}>
-            Bienvenido, has iniciado sesión exitosamente.
+            
           </p>
         ) : (
           <Form className={cuentaStyles["cuenta-form"]} onSubmit={handleSubmit}>
