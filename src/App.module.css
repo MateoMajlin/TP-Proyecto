@@ -10,7 +10,6 @@ body, h1, h2, p {
   background-color: #f4f4f4;
   color: #333;
   padding: 20px;
-  text-align: center; /* Centra el contenido en el cuerpo */
 }
 
 /* Estilos para la barra superior */
@@ -33,24 +32,9 @@ h2.etiqueta {
   color: #ff5722;
 }
 
-/* Estilos para los juegos y Pikachu */
+/* Estilos para los juegos */
 .juego {
-  display: inline-block;
-  margin: 10px;
-  overflow: hidden;
-  position: relative;
-}
-
-.juego img {
-  width: 100%;
-  height: auto;
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.juego:hover img {
-  transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el ratón por encima */
+  margin-bottom: 20px;
 }
 
 /* Estilos para los enlaces */
@@ -71,6 +55,14 @@ a:hover {
 /* Estilos para la bienvenida del usuario */
 p {
   font-weight: bold;
+}
+
+/* Estilos para las imágenes de los juegos */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 8px;
 }
 
 /* Estilos adicionales según sea necesario */
