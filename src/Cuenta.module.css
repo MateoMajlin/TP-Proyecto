@@ -1,52 +1,67 @@
-body{
-    background-color: white;
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8; /* Color de fondo similar al de ChatGPT */
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
+/* Estilos para el contenedor principal */
 .cuenta-container {
-  max-width: 400px;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 
-.cuenta-top {
-  text-align: right;
+/* Estilos para el enlace de Inicio */
+.cuenta-top a {
+  text-decoration: none;
+  color: #4e8cff; /* Azul similar al color de los enlaces en ChatGPT */
 }
 
+.cuenta-top a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para el título principal */
 .cuenta-merengue {
-  color: #ff6b6b;
-}
-.cuenta-form {
-  margin-top: 20px;
-}
-.cuenta-label {
-  font-weight: bold;
+  color: #4e8cff; /* Azul similar al color de los enlaces en ChatGPT */
 }
 
-.cuenta-control {
-  margin-bottom: 10px;
+/* Estilos para el formulario */
+.cuenta-form {
+  width: 300px;
+  margin: 20px auto;
 }
+
+/* Estilos para las etiquetas de formulario */
+.cuenta-label {
+  color: #4e8cff; /* Azul similar al color de los enlaces en ChatGPT */
+}
+
+/* Estilos para los controles de formulario */
+.cuenta-control {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Estilos para el botón */
 .cuenta-button {
-  background-color: #4caf50;
-  color: white;
+  background-color: #4e8cff; /* Azul similar al color de los enlaces en ChatGPT */
+  color: #fff;
   border: none;
   padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 5px;
   cursor: pointer;
 }
 
-.cuenta-button:hover {
-  background-color: #45a049;
-}
-
+/* Estilos para el mensaje de éxito */
 .cuenta-success-message {
-  margin-top: 10px;
-  color: green;
+  color: #4e8cff; /* Azul similar al color de los enlaces en ChatGPT */
   font-weight: bold;
+  margin-top: 10px;
 }
