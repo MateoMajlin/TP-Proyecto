@@ -21,10 +21,13 @@ function Cuenta() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Simulamos una autenticación exitosa si ambos campos no están vacíos
     if (email.trim() !== '' && password.trim() !== '') {
       setLoggedIn(true);
       setShowSuccessMessage(true);
+
+      setTimeout(() => {
+        setShowSuccessMessage(false);
+      }, 3000); 
     } else {
       alert('Por favor, ingresa tu correo electrónico y contraseña.');
     }
@@ -48,7 +51,7 @@ function Cuenta() {
                 onChange={handleEmailChange}
               />
               <Form.Text className="text-muted">
-                We'll never share your email with anyone else.
+               No vamos a compartir tu Email con nadie
               </Form.Text>
             </Form.Group>
 
@@ -79,3 +82,4 @@ function Cuenta() {
 }
 
 export default Cuenta;
+
