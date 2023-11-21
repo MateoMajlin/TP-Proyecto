@@ -38,7 +38,7 @@ function Cuenta() {
         <h2 className={cuentaStyles["cuenta-top"]}><Link to="/">Inicio</Link></h2>
         <h1 className={cuentaStyles["cuenta-merengue"]}>Cuenta lul</h1>
         {loggedIn ? (
-          <p className={cuentaStylesnta-success-message"]}>
+          <p className={cuentaStyles["cuenta-success-message"]}>
             
           </p>
         ) : (
