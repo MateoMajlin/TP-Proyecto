@@ -12,18 +12,19 @@
 /* Estilos para la barra superior */
 .superior {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around; /* Cambiado de space-between a space-around */
   margin-bottom: 20px;
 }
 
 .top {
-  margin-right: 20px;
+  /* margin-right: 20px; Quitar margen derecho para dar espacio uniforme entre los enlaces */
 }
 
 /* Estilos para los enlaces en la barra superior con tonalidades retro */
 .top a {
   text-decoration: none;
   color: #b68c55; /* Color marrón retro para los enlaces */
+  margin-right: 20px; /* Añadido margen derecho para separar los enlaces */
 }
 
 .top a:hover {
@@ -66,3 +67,4 @@ p {
 }
 
 /* Estilos adicionales según sea necesario */
+
