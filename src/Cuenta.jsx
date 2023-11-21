@@ -33,7 +33,6 @@ function Cuenta() {
   };
 
   return (
-<div>
       <div className={cuentaStyles["cuenta-container"]}>
         <h2 className={cuentaStyles["cuenta-top"]}><Link to="/">Inicio</Link></h2>
         <h1 className={cuentaStyles["cuenta-merengue"]}>Cuenta lul</h1>
@@ -80,7 +79,7 @@ function Cuenta() {
           <p>¡Bienvenido, has iniciado sesión exitosamente!</p>
         )}
       </div>
-    </div>
+        </div>
   );
 }
 
