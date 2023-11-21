@@ -21,13 +21,15 @@ function Cuenta() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // Simulamos una autenticación exitosa si ambos campos no están vacíos
     if (email.trim() !== '' && password.trim() !== '') {
       setLoggedIn(true);
       setShowSuccessMessage(true);
 
+      // Resetear showSuccessMessage después de un tiempo para que no se muestre permanentemente
       setTimeout(() => {
         setShowSuccessMessage(false);
-      }, 3000); 
+      }, 3000); // Mostrar el mensaje durante 3 segundos, ajusta según sea necesario
     } else {
       alert('Por favor, ingresa tu correo electrónico y contraseña.');
     }
@@ -88,4 +90,3 @@ function Cuenta() {
 }
 
 export default Cuenta;
-
