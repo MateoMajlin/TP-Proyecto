@@ -1,4 +1,4 @@
-/* AppStyles.css */
+/* App.module.css */
 
 .body {
     background-color: #f0f0f0;
@@ -6,7 +6,7 @@
 }
 
 .superior {
-    background-color: #1a1a1a;
+    background-color: #3498db;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -19,15 +19,15 @@
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
-    background-color: #0078d4;
+    background-color: #2980b9;
 }
 
 .top:hover {
-    background-color: #005aa0; /* Cambia el color al pasar el ratón */
+    background-color: #1c6da8; /* Cambia el color al pasar el ratón */
 }
 
 .etiqueta {
-    color: #0078d4;
+    color: #3498db;
 }
 
 .juego {
@@ -37,9 +37,9 @@
 }
 
 .juego img {
-    margin-right: 10px; /* Espacio entre la imagen y el texto */
-    border-radius: 5px; /* Bordes redondeados para la imagen */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    width: 80px; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-right: 10px;
+    border-radius: 5px;
 }
 
 /* Otros estilos según sea necesario */
