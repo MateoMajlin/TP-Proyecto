@@ -3,20 +3,6 @@ body, h1, h2, p {
   margin: 0;
   padding: 0;
 }
-/* Resto del código CSS ... */
-
-/* Estilos para las imágenes de los juegos y Pikachu */
-img {
-  width: 200px; /* Establece el ancho deseado para todas las imágenes */
-  height: auto;
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  display: block; /* Asegura que las imágenes no tengan espacios adicionales debajo */
-  margin: 0 auto; /* Centra las imágenes horizontalmente dentro de sus contenedores */
-}
-
-/* Resto del código CSS ... */
-
 
 /* Estilos generales para el cuerpo de la aplicación */
 .body {
