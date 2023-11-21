@@ -7,8 +7,8 @@ import Form from 'react-bootstrap/Form';
 function Cuenta() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
   const [loggedIn, setLoggedIn] = useState(false);
+  const [showSuccessMessage, setShowSuccessMessage] = useState(false);
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
@@ -21,22 +21,22 @@ function Cuenta() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // Simulamos una autenticación exitosa si ambos campos no están vacíos
     if (email.trim() !== '' && password.trim() !== '') {
-      // Simula la autenticación exitosa y guarda el usuario en localStorage
-      const user = { email, password };
-      localStorage.setItem('user', JSON.stringify(user));
-
+      setLoggedIn(true);
       setShowSuccessMessage(true);
 
+      // Resetear showSuccessMessage después de un tiempo para que no se muestre permanentemente
       setTimeout(() => {
         setShowSuccessMessage(false);
-      }, 3000);
+      }, 3000); // Mostrar el mensaje durante 3 segundos, ajusta según sea necesario
     } else {
       alert('Por favor, ingresa tu correo electrónico y contraseña.');
     }
   };
 
   return (
+    <>
       <div className={cuentaStyles["cuenta-container"]}>
         <h2 className={cuentaStyles["cuenta-top"]}><Link to="/">Inicio</Link></h2>
         <h1 className={cuentaStyles["cuenta-merengue"]}>Cuenta lul</h1>
@@ -78,12 +78,14 @@ function Cuenta() {
             </Button>
           </Form>
         )}
-      <div>
+
         {showSuccessMessage && (
-          <p>¡Bienvenido, has iniciado sesión exitosamente!</p>
+          <p className={cuentaStyles["cuenta-success-message"]}>
+            ¡Bienvenido, has iniciado sesión exitosamente!
+          </p>
         )}
       </div>
-        </div>
+    </>
   );
 }
 
