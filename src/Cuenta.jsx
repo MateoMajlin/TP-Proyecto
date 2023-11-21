@@ -39,7 +39,7 @@ function Cuenta() {
         <h2 className="top"><Link to="/">Inicio</Link></h2>
         <h1 className={cuenta.merengue}>Cuenta lul</h1>
         {loggedIn ? (
-          <p>Bienvenido, has iniciado sesión exitosamente.</p>
+          <p></p>
         ) : (
           <Form onSubmit={handleSubmit}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
