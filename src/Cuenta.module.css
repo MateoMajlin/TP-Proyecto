@@ -1,9 +1,7 @@
 body{
     background-color: white;
 }
-/* Cuenta.module.css */
 
-/* Estilos específicos para el componente Cuenta */
 .cuenta-container {
   max-width: 400px;
   margin: auto;
@@ -13,32 +11,23 @@ body{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilos para el encabezado */
 .cuenta-top {
   text-align: right;
 }
 
-/* Estilos para el título */
 .cuenta-merengue {
   color: #ff6b6b;
 }
-
-/* Estilos para el formulario */
 .cuenta-form {
   margin-top: 20px;
 }
-
-/* Estilos para las etiquetas del formulario */
 .cuenta-label {
   font-weight: bold;
 }
 
-/* Estilos para los campos de entrada del formulario */
 .cuenta-control {
   margin-bottom: 10px;
 }
-
-/* Estilos para el botón del formulario */
 .cuenta-button {
   background-color: #4caf50;
   color: white;
@@ -56,7 +45,6 @@ body{
   background-color: #45a049;
 }
 
-/* Estilos para el mensaje de éxito */
 .cuenta-success-message {
   margin-top: 10px;
   color: green;
