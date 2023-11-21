@@ -4,10 +4,10 @@ body, h1, h2, p {
   padding: 0;
 }
 
-/* Estilos generales para el cuerpo de la aplicación */
+/* Estilos generales para el cuerpo de la aplicación con tonalidades retro */
 .body {
   font-family: 'Arial', sans-serif;
-  background-color: #f8f8f8; /* Color de fondo similar al de ChatGPT */
+  background-color: #f6f6f6; /* Fondo en tono retro */
   color: #333;
   padding: 20px;
   text-align: center;
@@ -24,32 +24,32 @@ body, h1, h2, p {
   margin-right: 20px;
 }
 
-/* Estilos para los enlaces en la barra superior */
+/* Estilos para los enlaces en la barra superior con tonalidades retro */
 .top a {
   text-decoration: none;
-  color: #4e8cff; /* Azul similar al color de los enlaces en ChatGPT */
+  color: #b68c55; /* Color marrón retro para los enlaces */
 }
 
 .top a:hover {
   text-decoration: underline;
 }
 
-/* Estilos para los títulos */
+/* Estilos para los títulos con tonalidades retro */
 h1 {
-  color: #4e8cff; /* Azul similar al color de los enlaces en ChatGPT */
+  color: #b68c55; /* Marrón retro para el título principal */
 }
 
 h2.etiqueta {
-  color: #ff7b17; /* Naranja similar al resaltado en ChatGPT */
+  color: #5c94ff; /* Azul retro para las etiquetas */
 }
 
-/* Estilos para el mensaje de bienvenida */
+/* Estilos para el mensaje de bienvenida con tonalidades retro */
 p {
   font-weight: bold;
   color: #333; /* Color de texto principal */
 }
 
-/* Estilos para los juegos y Pikachu */
+/* Estilos para los juegos y Pikachu con tonalidades retro */
 .juego {
   display: inline-block;
   margin: 10px;
@@ -60,7 +60,7 @@ p {
 .juego img {
   width: 100%;
   height: auto;
-  border: 2px solid #ddd;
+  border: 2px solid #b68c55; /* Borde marrón retro */
   border-radius: 8px;
   transition: transform 0.3s ease-in-out;
 }
