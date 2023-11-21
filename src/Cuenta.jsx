@@ -1,5 +1,8 @@
-// Cuenta.jsx
-import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import cuentaStyles from "./Cuenta.module.css";
+import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 
 function Cuenta() {
   const [email, setEmail] = useState('');
