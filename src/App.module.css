@@ -1,68 +1,29 @@
-/* Reset de estilos para eliminar márgenes y rellenos predeterminados */
-body, h1, h2, p {
-  margin: 0;
-  padding: 0;
-}
+/* AppStyles.css */
 
-/* Estilos generales para el cuerpo de la aplicación */
 .body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
-  padding: 20px;
+    background-color: #f8f8f8;
+    font-family: 'Arial', sans-serif;
 }
 
-/* Estilos para la barra superior */
 .superior {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 20px;
+    background-color: #0078d4;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .top {
-  margin-right: 20px;
+    color: #ffffff;
+    margin: 0;
 }
 
-/* Estilos para los títulos */
-h1 {
-  color: #009688;
+.etiqueta {
+    color: #0078d4;
 }
 
-h2.etiqueta {
-  color: #ff5722;
-}
-
-/* Estilos para los juegos */
 .juego {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
-/* Estilos para los enlaces */
-a {
-  text-decoration: none;
-  color: #2196f3;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Estilos específicos para los enlaces de la barra superior */
-.top a {
-  font-weight: bold;
-}
-
-/* Estilos para la bienvenida del usuario */
-p {
-  font-weight: bold;
-}
-
-/* Estilos para las imágenes de los juegos */
-img {
-  max-width: 100%;
-  height: auto;
-  border: 2px solid #ddd;
-  border-radius: 8px;
-}
-
-/* Estilos adicionales según sea necesario */
+/* Otros estilos según sea necesario */
