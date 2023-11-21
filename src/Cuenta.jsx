@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import cuenta from "./Cuenta.module.css";
+import cuentaStyles from "./Cuenta.module.css";
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
@@ -35,29 +35,33 @@ function Cuenta() {
 
   return (
     <>
-      <div>
-        <h2 className="top"><Link to="/">Inicio</Link></h2>
-        <h1 className={cuenta.merengue}>Cuenta lul</h1>
+      <div className={cuentaStyles["cuenta-container"]}>
+        <h2 className={cuentaStyles["cuenta-top"]}><Link to="/">Inicio</Link></h2>
+        <h1 className={cuentaStyles["cuenta-merengue"]}>Cuenta lul</h1>
         {loggedIn ? (
-          <p></p>
+          <p className={cuentaStyles["cuenta-success-message"]}>
+            Bienvenido, has iniciado sesión exitosamente.
+          </p>
         ) : (
-          <Form onSubmit={handleSubmit}>
+          <Form className={cuentaStyles["cuenta-form"]} onSubmit={handleSubmit}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
-              <Form.Label>Email address</Form.Label>
+              <Form.Label className={cuentaStyles["cuenta-label"]}>Email address</Form.Label>
               <Form.Control
+                className={cuentaStyles["cuenta-control"]}
                 type="email"
                 placeholder="Enter email"
                 value={email}
                 onChange={handleEmailChange}
               />
               <Form.Text className="text-muted">
-               No vamos a compartir tu Email con nadie
+                We'll never share your email with anyone else.
               </Form.Text>
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicPassword">
-              <Form.Label>Password</Form.Label>
+              <Form.Label className={cuentaStyles["cuenta-label"]}>Password</Form.Label>
               <Form.Control
+                className={cuentaStyles["cuenta-control"]}
                 type="password"
                 placeholder="Password"
                 value={password}
@@ -67,14 +71,16 @@ function Cuenta() {
             <Form.Group className="mb-3" controlId="formBasicCheckbox">
               <Form.Check type="checkbox" label="Check me out" />
             </Form.Group>
-            <Button variant="primary" type="submit">
+            <Button className={cuentaStyles["cuenta-button"]} variant="primary" type="submit">
               Iniciar Sesión
             </Button>
           </Form>
         )}
 
         {showSuccessMessage && (
-          <p style={{ color: 'green' }}>¡Bienvenido, has iniciado sesión exitosamente!</p>
+          <p className={cuentaStyles["cuenta-success-message"]}>
+            ¡Bienvenido, has iniciado sesión exitosamente!
+          </p>
         )}
       </div>
     </>
