@@ -33,7 +33,7 @@ h2.etiqueta {
   color: #ff5722;
 }
 
-/* Estilos para los juegos */
+/* Estilos para los juegos y Pikachu */
 .juego {
   display: inline-block;
   margin: 10px;
@@ -74,4 +74,3 @@ p {
 }
 
 /* Estilos adicionales según sea necesario */
-
