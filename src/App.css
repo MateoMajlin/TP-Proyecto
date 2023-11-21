@@ -11,6 +11,9 @@ body, h1, h2, p {
   color: #333;
   padding: 20px;
   text-align: center;
+  display: flex; /* Usa flexbox para alinear elementos internos */
+  justify-content: flex-start; /* Alinea los elementos a la izquierda */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en la siguiente línea si no hay suficiente espacio */
 }
 
 /* Estilos para la barra superior */
@@ -70,4 +73,3 @@ p {
 }
 
 /* Estilos adicionales según sea necesario */
-
