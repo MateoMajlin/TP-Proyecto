@@ -4,24 +4,13 @@ body, h1, h2, p {
   padding: 0;
 }
 
-img {
-  width: 100%;
-  height: auto;
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  display: block; /* Asegura que las imágenes no tengan espacios adicionales debajo */
-  margin: 0 auto; /* Centra las imágenes horizontalmente dentro de sus contenedores */
-}
-
-/* Resto del código CSS ... */
-
-
 /* Estilos generales para el cuerpo de la aplicación */
 .body {
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
   color: #333;
   padding: 20px;
+  text-align: center; /* Centra el contenido en el cuerpo */
 }
 
 /* Estilos para la barra superior */
@@ -46,7 +35,22 @@ h2.etiqueta {
 
 /* Estilos para los juegos */
 .juego {
-  margin-bottom: 20px;
+  display: inline-block;
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.juego img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.juego:hover img {
+  transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el ratón por encima */
 }
 
 /* Estilos para los enlaces */
@@ -69,12 +73,5 @@ p {
   font-weight: bold;
 }
 
-/* Estilos para las imágenes de los juegos */
-img {
-  max-width: 100%;
-  height: auto;
-  border: 2px solid #ddd;
-  border-radius: 8px;
-}
-
 /* Estilos adicionales según sea necesario */
+
