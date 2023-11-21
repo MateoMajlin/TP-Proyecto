@@ -7,10 +7,10 @@ body, h1, h2, p {
 /* Estilos generales para el cuerpo de la aplicación */
 .body {
   font-family: 'Arial', sans-serif;
-  background-color: #f8f8f8; /* Color de fondo similar al de ChatGPT */
+  background-color: #f4f4f4;
   color: #333;
   padding: 20px;
-  text-align: center;
+  text-align: center; /* Centra el contenido en el cuerpo */
 }
 
 /* Estilos para la barra superior */
@@ -24,29 +24,13 @@ body, h1, h2, p {
   margin-right: 20px;
 }
 
-/* Estilos para los enlaces en la barra superior */
-.top a {
-  text-decoration: none;
-  color: #4e8cff; /* Azul similar al color de los enlaces en ChatGPT */
-}
-
-.top a:hover {
-  text-decoration: underline;
-}
-
 /* Estilos para los títulos */
 h1 {
-  color: #4e8cff; /* Azul similar al color de los enlaces en ChatGPT */
+  color: #009688;
 }
 
 h2.etiqueta {
-  color: #ff7b17; /* Naranja similar al resaltado en ChatGPT */
-}
-
-/* Estilos para el mensaje de bienvenida */
-p {
-  font-weight: bold;
-  color: #333; /* Color de texto principal */
+  color: #ff5722;
 }
 
 /* Estilos para los juegos y Pikachu */
@@ -67,6 +51,26 @@ p {
 
 .juego:hover img {
   transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el ratón por encima */
+}
+
+/* Estilos para los enlaces */
+a {
+  text-decoration: none;
+  color: #2196f3;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos específicos para los enlaces de la barra superior */
+.top a {
+  font-weight: bold;
+}
+
+/* Estilos para la bienvenida del usuario */
+p {
+  font-weight: bold;
 }
 
 /* Estilos adicionales según sea necesario */
