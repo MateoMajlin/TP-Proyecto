@@ -4,6 +4,18 @@ body, h1, h2, p {
   padding: 0;
 }
 
+img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  display: block; /* Asegura que las imágenes no tengan espacios adicionales debajo */
+  margin: 0 auto; /* Centra las imágenes horizontalmente dentro de sus contenedores */
+}
+
+/* Resto del código CSS ... */
+
+
 /* Estilos generales para el cuerpo de la aplicación */
 .body {
   font-family: 'Arial', sans-serif;
