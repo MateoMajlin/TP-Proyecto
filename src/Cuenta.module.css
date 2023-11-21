@@ -1,6 +1,64 @@
 body{
     background-color: white;
 }
-div{
-    background-color: white;
+/* Cuenta.module.css */
+
+/* Estilos para el contenedor principal */
+div {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para el encabezado */
+.top {
+  text-align: right;
+}
+
+/* Estilos para el título */
+.merengue {
+  color: #ff6b6b;
+}
+
+/* Estilos para el formulario */
+Form {
+  margin-top: 20px;
+}
+
+/* Estilos para las etiquetas del formulario */
+Form.Label {
+  font-weight: bold;
+}
+
+/* Estilos para los campos de entrada del formulario */
+Form.Control {
+  margin-bottom: 10px;
+}
+
+/* Estilos para el botón del formulario */
+Button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+Button:hover {
+  background-color: #45a049;
+}
+
+/* Estilos para el mensaje de éxito */
+p[style="color: green;"] {
+  margin-top: 10px;
+  color: green;
+  font-weight: bold;
 }
