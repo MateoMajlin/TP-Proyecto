@@ -1,9 +1,13 @@
-/* App.module.css */
+/* Reset de estilos para eliminar márgenes y rellenos predeterminados */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
 
-/* Estilos generales para el cuerpo de la aplicación con tonalidades retro */
+/* Estilos generales para el cuerpo de la aplicación */
 .body {
   font-family: 'Arial', sans-serif;
-  background-color: #f6f6f6; /* Fondo en tono retro */
+  background-color: #f8f8f8; /* Color de fondo similar al de ChatGPT */
   color: #333;
   padding: 20px;
   text-align: center;
@@ -12,41 +16,40 @@
 /* Estilos para la barra superior */
 .superior {
   display: flex;
-  justify-content: space-around; /* Cambiado de space-between a space-around */
+  justify-content: space-between;
   margin-bottom: 20px;
 }
 
 .top {
-  /* margin-right: 20px; Quitar margen derecho para dar espacio uniforme entre los enlaces */
+  margin-right: 20px;
 }
 
-/* Estilos para los enlaces en la barra superior con tonalidades retro */
+/* Estilos para los enlaces en la barra superior */
 .top a {
   text-decoration: none;
-  color: #b68c55; /* Color marrón retro para los enlaces */
-  margin-right: 20px; /* Añadido margen derecho para separar los enlaces */
+  color: #4e8cff; /* Azul similar al color de los enlaces en ChatGPT */
 }
 
 .top a:hover {
   text-decoration: underline;
 }
 
-/* Estilos para los títulos con tonalidades retro */
+/* Estilos para los títulos */
 h1 {
-  color: #b68c55; /* Marrón retro para el título principal */
+  color: #4e8cff; /* Azul similar al color de los enlaces en ChatGPT */
 }
 
-.etiqueta {
-  color: #5c94ff; /* Azul retro para las etiquetas */
+h2.etiqueta {
+  color: #ff7b17; /* Naranja similar al resaltado en ChatGPT */
 }
 
-/* Estilos para el mensaje de bienvenida con tonalidades retro */
+/* Estilos para el mensaje de bienvenida */
 p {
   font-weight: bold;
   color: #333; /* Color de texto principal */
 }
 
-/* Estilos para los juegos y Pikachu con tonalidades retro */
+/* Estilos para los juegos y Pikachu */
 .juego {
   display: inline-block;
   margin: 10px;
@@ -57,7 +60,7 @@ p {
 .juego img {
   width: 100%;
   height: auto;
-  border: 2px solid #b68c55; /* Borde marrón retro */
+  border: 2px solid #ddd;
   border-radius: 8px;
   transition: transform 0.3s ease-in-out;
 }
@@ -67,4 +70,3 @@ p {
 }
 
 /* Estilos adicionales según sea necesario */
-
