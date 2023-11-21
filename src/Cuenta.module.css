@@ -3,8 +3,8 @@ body{
 }
 /* Cuenta.module.css */
 
-/* Estilos para el contenedor principal */
-div {
+/* Estilos específicos para el componente Cuenta */
+.cuenta-container {
   max-width: 400px;
   margin: auto;
   padding: 20px;
@@ -14,32 +14,32 @@ div {
 }
 
 /* Estilos para el encabezado */
-.top {
+.cuenta-top {
   text-align: right;
 }
 
 /* Estilos para el título */
-.merengue {
+.cuenta-merengue {
   color: #ff6b6b;
 }
 
 /* Estilos para el formulario */
-Form {
+.cuenta-form {
   margin-top: 20px;
 }
 
 /* Estilos para las etiquetas del formulario */
-Form.Label {
+.cuenta-label {
   font-weight: bold;
 }
 
 /* Estilos para los campos de entrada del formulario */
-Form.Control {
+.cuenta-control {
   margin-bottom: 10px;
 }
 
 /* Estilos para el botón del formulario */
-Button {
+.cuenta-button {
   background-color: #4caf50;
   color: white;
   border: none;
@@ -52,12 +52,12 @@ Button {
   cursor: pointer;
 }
 
-Button:hover {
+.cuenta-button:hover {
   background-color: #45a049;
 }
 
 /* Estilos para el mensaje de éxito */
-p[style="color: green;"] {
+.cuenta-success-message {
   margin-top: 10px;
   color: green;
   font-weight: bold;
