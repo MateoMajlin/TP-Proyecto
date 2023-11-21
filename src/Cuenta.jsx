@@ -8,6 +8,7 @@ function Cuenta() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
+  const [loggedIn, setLoggedIn] = useState(false);
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
