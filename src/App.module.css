@@ -1,8 +1,4 @@
-/* Reset de estilos para eliminar márgenes y rellenos predeterminados */
-body, h1, h2, p {
-  margin: 0;
-  padding: 0;
-}
+/* App.module.css */
 
 /* Estilos generales para el cuerpo de la aplicación con tonalidades retro */
 .body {
@@ -39,7 +35,7 @@ h1 {
   color: #b68c55; /* Marrón retro para el título principal */
 }
 
-h2.etiqueta {
+.etiqueta {
   color: #5c94ff; /* Azul retro para las etiquetas */
 }
 
