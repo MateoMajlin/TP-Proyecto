@@ -1,6 +1,8 @@
 import "./App.css";
+import React from 'react';
 import { Link } from 'react-router-dom';
 function App() {
+   const user = JSON.parse(localStorage.getItem('user'));
    return (
       <>
       <div className="body">
@@ -8,6 +10,9 @@ function App() {
       <h2 className="top"><Link to="/">Inicio</Link></h2><h2 className="top"><Link to="/Cuenta">Cuenta</Link></h2><h2 className="top"><Link to="/Easter">Easter</Link></h2>
       </div>
       <div>
+         {user && (
+          <p>Bienvenido, {user.email}.</p>
+        )}
          <h1>Juegos K</h1>
       </div>
       <h2 className="etiqueta">1 Jugador</h2>
