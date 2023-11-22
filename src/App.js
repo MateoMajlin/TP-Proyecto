@@ -1,6 +1,8 @@
+// App.js
 import React from 'react';
 import { Link } from 'react-router-dom';
-import estilos from "./App.module.css"; // Asegúrate de importar el archivo CSS correctamente
+import estilos from "./App.module.css";
+import { useUser } from './UserContext'; // Importa el hook del contexto
 
 function MensajeBienvenida({ usuario }) {
   if (usuario) {
@@ -10,7 +12,7 @@ function MensajeBienvenida({ usuario }) {
 }
 
 function App() {
-  const usuario = JSON.parse(localStorage.getItem('usuario'));
+  const { user } = useUser(); // Usa el hook del contexto
 
   return (
     <>
@@ -19,9 +21,12 @@ function App() {
           <h2 className={estilos.top}><Link to="/">Inicio</Link></h2>
           <h2 className={estilos.top}><Link to="/Cuenta">Cuenta</Link></h2>
           <h2 className={estilos.top}><Link to="/Easter">Easter</Link></h2>
+          {user && (
+            <p className={estilos.usuarioSuperior}>¡Hola, {user.username}!</p>
+          )}
         </div>
 
-        <MensajeBienvenida usuario={usuario} />
+        <MensajeBienvenida usuario={user} />
 
         <h1>Juegos K</h1>
 
