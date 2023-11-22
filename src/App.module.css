@@ -6,12 +6,7 @@ body {
   font-family: 'Courier New', monospace;
   background-color: #1c1c1c;
   color: #fff;
-}
-
-.body {
-  height: 100vh;
-  margin: 0;
-  padding: 20px;
+  height: 100vh;  /* Asegúrate de que el cuerpo ocupe toda la altura de la ventana */
   display: flex;
   flex-direction: column;
 }
