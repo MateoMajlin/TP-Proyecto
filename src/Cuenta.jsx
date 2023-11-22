@@ -1,8 +1,10 @@
+// Cuenta.js
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import cuentaStyles from "./Cuenta.module.css";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import { useUser } from './UserContext'; // Importa el hook del contexto
 
 function Cuenta() {
   const [email, setEmail] = useState('');
@@ -10,10 +12,7 @@ function Cuenta() {
   const [username, setUsername] = useState('');
   const [loggedIn, setLoggedIn] = useState(false);
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
-
-  // Obtener el usuario almacenado en localStorage al cargar la página
-  const storedUser = JSON.parse(localStorage.getItem('user'));
-  const [user, setUser] = useState(storedUser);
+  const { user, updateUser } = useUser(); // Usa el hook del contexto
 
   const handleEmailChange = (e) => {
     setEmail(e.target.value);
@@ -32,15 +31,12 @@ function Cuenta() {
 
     // Simulamos una autenticación exitosa si todos los campos están completos
     if (email.trim() !== '' && password.trim() !== '' && username.trim() !== '') {
-      // Almacenar información del usuario en localStorage
+      // Almacenar información del usuario en el contexto
       const userObject = { email, username };
-      localStorage.setItem('user', JSON.stringify(userObject));
+      updateUser(userObject);
 
       setLoggedIn(true);
       setShowSuccessMessage(true);
-
-      // Actualizar el estado del usuario
-      setUser(userObject);
 
       // Resetear showSuccessMessage después de un tiempo para que no se muestre permanentemente
       setTimeout(() => {
