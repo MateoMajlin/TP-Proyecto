@@ -1,6 +1,6 @@
 /* App.module.css */
 
-/*body {
+/* body {
   margin: 0;
   padding: 0;
   font-family: 'Courier New', monospace;
@@ -9,8 +9,7 @@
   height: 100vh;  /* Asegúrate de que el cuerpo ocupe toda la altura de la ventana */
   display: flex;
   flex-direction: column;
-}
-*/
+} */
 .superior {
   display: flex;
   justify-content: space-between;
