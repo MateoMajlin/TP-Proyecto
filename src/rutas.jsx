@@ -24,6 +24,10 @@ function Rutas() {
         path="/Easter"
         element={<Easter />}
       />
+      <Route
+        exact path= "/Memoria"
+        element={<JuegoMemoria>}
+          />
     </Routes>
     </>
   );
