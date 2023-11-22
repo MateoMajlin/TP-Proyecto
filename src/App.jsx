@@ -1,7 +1,7 @@
  import React from 'react';
 import { Link } from 'react-router-dom';
 import estilos from "./App.module.css"; // Asegúrate de importar el archivo CSS correctamente
-import JuegoMemoria from "./JuegosMemoria";
+import JuegoMemoria from "./JuegoMemoria";
 
 function MensajeBienvenida({ usuario }) {
   if (usuario) {
