@@ -1,7 +1,6 @@
-// App.js
-import React from 'react';
+ import React from 'react';
 import { Link } from 'react-router-dom';
-import estilos from "./App.module.css";
+import estilos from "./App.module.css"; // Asegúrate de importar el archivo CSS correctamente
 
 function MensajeBienvenida({ usuario }) {
   if (usuario) {
@@ -11,7 +10,7 @@ function MensajeBienvenida({ usuario }) {
 }
 
 function App() {
-  const { user } = useUser(); // Usa el hook del contexto
+  const usuario = JSON.parse(localStorage.getItem('usuario'));
 
   return (
     <>
@@ -20,12 +19,9 @@ function App() {
           <h2 className={estilos.top}><Link to="/">Inicio</Link></h2>
           <h2 className={estilos.top}><Link to="/Cuenta">Cuenta</Link></h2>
           <h2 className={estilos.top}><Link to="/Easter">Easter</Link></h2>
-          {user && (
-            <p className={estilos.usuarioSuperior}>¡Hola, {user.username}!</p>
-          )}
         </div>
 
-        <MensajeBienvenida usuario={user} />
+        <MensajeBienvenida usuario={usuario} />
 
         <h1>Juegos K</h1>
 
@@ -34,7 +30,6 @@ function App() {
           <a href="https://www.txori.com/dbdevolution">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNF-1cfNRlyGgOT_4emHVmZpewEGjSXtXzmIrkE_Uldyawa6VwiC7jGfD7pxtprHCJ0vc&usqp=CAU" alt="pikapika" />
           </a>
-          <img src="https://uchile.cl/.imaging/default/dam/imagenes/Uchile/VIDCom/2022/Abril/Embajador-de-la-Rep-blica-Popular-China--Niu-Qingbao.png/jcr:content.png" alt="pikapika" />
         </div>
         <br />
 
