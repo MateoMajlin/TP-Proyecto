@@ -2,7 +2,7 @@ import {Routes, Route } from "react-router-dom";
 import App from "./App";
 import Cuenta from "./Cuenta";
 import Easter from "./Easter";
-
+import JuegoMemoria from "./JuegoMemoria"
 
 function Rutas() {
 
