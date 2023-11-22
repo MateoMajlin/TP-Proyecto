@@ -6,10 +6,12 @@
   font-family: 'Courier New', monospace;
   background-color: #1c1c1c;
   color: #fff;
-  height: 100vh;  /* Asegúrate de que el cuerpo ocupe toda la altura de la ventana */
+  height: 100vh;  
   display: flex;
   flex-direction: column;
-} */
+} 
+*/
+
 .superior {
   display: flex;
   justify-content: space-between;
