@@ -4,14 +4,7 @@ import estilos from "./App.module.css"; // Asegúrate de importar el archivo CSS
 
 function MensajeBienvenida({ usuario }) {
   if (usuario) {
-    return <p className={estilos.bienvenida}>Bienvenido, {usuario.email}.</p>;
-  }
-  return null;
-}
-
-function NombreUsuarioDestacado({ usuario }) {
-  if (usuario) {
-    return <h3 className={estilos.nombreUsuarioDestacado}>USUARIO={usuario.email}</h3>;
+    return <p>Bienvenido, {usuario.email}.</p>;
   }
   return null;
 }
@@ -29,7 +22,6 @@ function App() {
         </div>
 
         <MensajeBienvenida usuario={usuario} />
-        <NombreUsuarioDestacado usuario={usuario} />
 
         <h1>Juegos K</h1>
 
