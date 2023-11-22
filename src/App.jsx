@@ -34,6 +34,7 @@ function App() {
         <div className={estilos.juego}>
           <a href="https://www.txori.com/dbdevolution">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNF-1cfNRlyGgOT_4emHVmZpewEGjSXtXzmIrkE_Uldyawa6VwiC7jGfD7pxtprHCJ0vc&usqp=CAU" alt="pikapika" />
+            <img src="https://uchile.cl/.imaging/default/dam/imagenes/Uchile/VIDCom/2022/Abril/Embajador-de-la-Rep-blica-Popular-China--Niu-Qingbao.png/jcr:content.png" alt="pikapika" />
           </a>
         </div>
         <br />
