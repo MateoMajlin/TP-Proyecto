@@ -32,7 +32,7 @@ const JuegoMemoria = () => {
         setSecuencia([]);
       }
     }
-  }, [inputUsuario, secuencia]);
+  }, [inputUsuario, secuencia, generarSecuencia]); // Agregar generarSecuencia al array de dependencias
 
   return (
     <div>
