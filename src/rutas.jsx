@@ -26,7 +26,7 @@ function Rutas() {
       />
       <Route
         exact path= "/Memoria"
-        element={<JuegoMemoria>}
+        element={<JuegoMemoria />}
           />
     </Routes>
     </>
