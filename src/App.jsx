@@ -2,7 +2,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import estilos from "./App.module.css";
-import { useUser } from './UserContext'; // Importa el hook del contexto
 
 function MensajeBienvenida({ usuario }) {
   if (usuario) {
