@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './TuArchivoDeEstilos.css'; // Asegúrate de agregar el archivo de estilos adecuado
 
 const JuegoMemoria = () => {
   const [secuencia, setSecuencia] = useState([]);
