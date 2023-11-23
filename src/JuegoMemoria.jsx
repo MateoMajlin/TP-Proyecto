@@ -1,54 +1,60 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState } from 'react';
 
-const JuegoMemoria = () => {
-  const [secuencia, setSecuencia] = useState([]);
-  const [inputUsuario, setInputUsuario] = useState([]);
-  const [mensaje, setMensaje] = useState('¡Comienza el juego! Observa la secuencia.');
+const JuegoDosJugadores = () => {
+  const [opcionJugador1, setOpcionJugador1] = useState('');
+  const [opcionJugador2, setOpcionJugador2] = useState('');
+  const [resultado, setResultado] = useState('');
 
-  const colores = ['rojo', 'azul', 'verde', 'amarillo'];
+  const opcionesValidas = ['piedra', 'papel', 'tijeras'];
 
-  const generarSecuencia = useCallback(() => {
-    const nuevaSecuencia = [...secuencia, colores[Math.floor(Math.random() * 4)]];
-    setSecuencia(nuevaSecuencia);
-    setInputUsuario([]);
-    setMensaje('¡Tu turno! Repite la secuencia.');
-  }, [secuencia]);
+  const jugar = () => {
+    if (!opcionesValidas.includes(opcionJugador1) || !opcionesValidas.includes(opcionJugador2)) {
+      setResultado('Por favor, elige opciones válidas: piedra, papel o tijeras.');
+      return;
+    }
 
-  const manejarClic = (color) => {
-    setInputUsuario([...inputUsuario, color]);
+    if (opcionJugador1 === opcionJugador2) {
+      setResultado('¡Empate!');
+    } else if (
+      (opcionJugador1 === 'piedra' && opcionJugador2 === 'tijeras') ||
+      (opcionJugador1 === 'papel' && opcionJugador2 === 'piedra') ||
+      (opcionJugador1 === 'tijeras' && opcionJugador2 === 'papel')
+    ) {
+      setResultado('¡Jugador 1 gana!');
+    } else {
+      setResultado('¡Jugador 2 gana!');
+    }
   };
-
-  useEffect(() => {
-    if (secuencia.length === 0) {
-      generarSecuencia();
-    }
-
-    if (inputUsuario.length === secuencia.length) {
-      if (JSON.stringify(inputUsuario) === JSON.stringify(secuencia)) {
-        setMensaje('¡Correcto! Siguiente nivel.');
-        setTimeout(() => generarSecuencia(), 1000);
-      } else {
-        setMensaje(`¡Incorrecto! Has perdido. Tu puntaje fue ${secuencia.length - 1}.`);
-        setSecuencia([]);
-      }
-    }
-  }, [inputUsuario, secuencia, generarSecuencia]); // Agregar generarSecuencia al array de dependencias
 
   return (
     <div>
-      <h1>Juego de Memoria</h1>
-      <p>{mensaje}</p>
-      <div className="tablero">
-        {colores.map((color, index) => (
-          <div
-            key={index}
-            className={`celda ${color} ${inputUsuario.length === secuencia.length ? 'disabled' : ''}`}
-            onClick={() => manejarClic(color)}
-          ></div>
-        ))}
-      </div>
+      <h1>Juego de Piedra, Papel o Tijeras</h1>
+      <label>
+        Jugador 1:
+        <select value={opcionJugador1} onChange={(e) => setOpcionJugador1(e.target.value)}>
+          <option value="">Elige una opción</option>
+          {opcionesValidas.map((opcion) => (
+            <option key={opcion} value={opcion}>
+              {opcion}
+            </option>
+          ))}
+        </select>
+      </label>
+      <label>
+        Jugador 2:
+        <select value={opcionJugador2} onChange={(e) => setOpcionJugador2(e.target.value)}>
+          <option value="">Elige una opción</option>
+          {opcionesValidas.map((opcion) => (
+            <option key={opcion} value={opcion}>
+              {opcion}
+            </option>
+          ))}
+        </select>
+      </label>
+      <button onClick={jugar}>Jugar</button>
+      <p>{resultado}</p>
     </div>
   );
 };
 
-export default JuegoMemoria;
+export default JuegoDosJugadores;
