@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 
 const JuegoMemoria = () => {
   const [secuencia, setSecuencia] = useState([]);
@@ -7,12 +7,12 @@ const JuegoMemoria = () => {
 
   const colores = ['rojo', 'azul', 'verde', 'amarillo'];
 
-  const generarSecuencia = () => {
+  const generarSecuencia = useCallback(() => {
     const nuevaSecuencia = [...secuencia, colores[Math.floor(Math.random() * 4)]];
     setSecuencia(nuevaSecuencia);
     setInputUsuario([]);
     setMensaje('¡Tu turno! Repite la secuencia.');
-  };
+  }, [secuencia]);
 
   const manejarClic = (color) => {
     setInputUsuario([...inputUsuario, color]);
