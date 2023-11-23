@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './TuArchivoDeEstilos.css'; // Asegúrate de agregar el archivo de estilos adecuado
 
 const JuegoMemoria = () => {
   const [secuencia, setSecuencia] = useState([]);
@@ -42,9 +43,8 @@ const JuegoMemoria = () => {
         {colores.map((color, index) => (
           <div
             key={index}
-            className={`celda ${color}`}
+            className={`celda ${color} ${inputUsuario.length === secuencia.length ? 'disabled' : ''}`}
             onClick={() => manejarClic(color)}
-            disabled={inputUsuario.length === secuencia.length}
           ></div>
         ))}
       </div>
