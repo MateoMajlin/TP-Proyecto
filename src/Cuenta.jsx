@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import cuenta from "./Cuenta.module.css";
 function Cuenta(){
