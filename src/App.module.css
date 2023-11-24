@@ -1,0 +1,46 @@
+/* App.module.css */
+
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Courier New', monospace;
+  background-color: #1c1c1c;
+  color: #fff;
+  height: 100vh;  
+  display: flex;
+  flex-direction: column;
+} 
+*/
+
+.superior {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.top {
+  margin: 0;
+}
+
+.etiqueta {
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.juego {
+  border: 2px solid #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.juego img {
+  max-width: 100%;
+}
+/* mARTIN HACE EL DRAGON */
+
+.nombreUsuarioDestacado {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
