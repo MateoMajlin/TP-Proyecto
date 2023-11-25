@@ -28,8 +28,3 @@ function Rutas() {
 }
 
 export default Rutas;
-
-
-
-
-export default Rutas;
