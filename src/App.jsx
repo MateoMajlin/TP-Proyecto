@@ -8,19 +8,19 @@ function App() {
       <div className="body">
         <div className="superior">
           <h2 className="top">
-            <Link to="/">Inicio</Link>
+            <Link to="/">INICIO</Link>
           </h2>
           <h2 className="top">
-            <Link to="/Cuenta">Cuenta</Link>
+            <Link to="/Cuenta">CUENTA</Link>
           </h2>
           <h2 className="top">
-            <Link to="/Easter">Easter</Link>
+            <Link to="/Easter">EASTER</Link>
           </h2>
         </div>
         <div>
-          <h1>Juegos K</h1>
+          <h1>JUEGOS K</h1>
         </div>
-        <h2 className="etiqueta">1 Jugador</h2>
+        <h2 className="etiqueta">1 JUGADOR</h2>
         <div className="juego">
           <Link to="https://www.txori.com/dbdevolution">
             <img
@@ -62,7 +62,7 @@ function App() {
             alt="pikapika"
           />
         </div>
-        <h2 className="etiqueta">2 Jugadores</h2>
+        <h2 className="etiqueta">2 JUGADORES</h2>
         
        <div className="juego">
           <Link to="./juego/JuegoDosJugadores">
