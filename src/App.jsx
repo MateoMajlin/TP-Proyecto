@@ -37,11 +37,13 @@ function App() {
             />
           </Link>
         </div>
-        <div className="juego">
-          <img
-            src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
-            alt="pikapika"
-          />
+         <div className="juego">
+          <Link to="./juego/CalculadoraPorcentajes">
+            <img
+              src="https://img.freepik.com/vector-gratis/calculadora-rosa-sobre-fondo-blanco_1308-74126.jpg"
+              alt="pikapika"
+            />
+          </Link>
         </div>
         <br></br>
         <div className="juego">
