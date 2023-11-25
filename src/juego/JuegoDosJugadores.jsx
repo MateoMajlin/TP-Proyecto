@@ -34,7 +34,7 @@ const JuegoDosJugadores = () => {
   return (
     <div>
           <h2 className="top">
-            <Link to="/">INICIO</Link>
+            <Link to="/">🔙</Link>
           </h2>
       <h1>Juego de Piedra, Papel o Tijeras</h1>
 
