@@ -1,5 +1,6 @@
 import Juego from "./Juego.module.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const JuegoPelea = () => {
   const [jugador1, setJugador1] = useState({
@@ -45,6 +46,9 @@ const JuegoPelea = () => {
 
   return (
     <div className={Juego.pelea}>
+    <h2 className="top">
+            <Link to="/">INICIO</Link>
+          </h2>
       <h1>Juego de Pelea</h1>
 
       <div className={Juego.jugadores}>
