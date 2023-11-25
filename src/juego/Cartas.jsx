@@ -55,7 +55,7 @@ const Cartas = () => {
       <p>Movimientos: {moves}</p>
       <div className={styles.cardsContainer}>
         {cards.map((card) => (
-          <Card
+          <Carta
             key={card.id}
             card={card}
             flipped={flippedCards.includes(card.id) || matchedPairs.includes(card.symbol)}
