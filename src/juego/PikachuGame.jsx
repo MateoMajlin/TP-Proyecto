@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import Pikachu from './Pikachu';
 import styles from './PikachuGame.module.css';
 
 const PikachuGame = () => {
