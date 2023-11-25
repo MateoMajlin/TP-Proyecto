@@ -34,13 +34,10 @@ h1 {
 }
 
 .juego {
-  text-align: center;
-  font-size: 36px;
-  font-family: 'Pacifico', cursive;
-  background: linear-gradient(45deg, #FF3366, #33FF99, #3366FF);
-  -webkit-background-clip: text;
-  color: transparent;
   display: inline-block;
+width: 30%;
+margin: 0 1.5%;
+
 }
 
 .top:hover {
