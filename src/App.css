@@ -26,19 +26,17 @@ div.juego {
   text-align: center;
   overflow: hidden;
   cursor: pointer;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s;
 }
 
 .juego img {
   width: 100%;
   height: auto;
   display: block;
-  transition: transform 0.3s;
 }
 
 .juego:hover {
   transform: scale(1.1);
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
 
 .etiqueta {
@@ -54,4 +52,3 @@ div.juego {
   background-color: #2980b9;
   padding: 10px;
 }
-
