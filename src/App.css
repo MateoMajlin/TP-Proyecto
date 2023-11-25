@@ -1,6 +1,6 @@
 .body {
   font-family: Arial, sans-serif;
-  text-align: center;  
+  text-align: center;
 }
 
 .superior {
@@ -15,33 +15,39 @@
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;  
+  text-decoration: none;
 }
 
 .top:hover {
   background-color: #ddd;
   color: black;
 }
-   
+
 h1 {
-  font-size: 50px;   
+  font-size: 50px;
 }
 
 .etiqueta {
   font-size: 30px;
-  margin: 20px 0; 
+  margin: 20px 0;
 }
 
 .juego {
   display: inline-block;
   width: 30%;
   margin: 0 1.5%;
-  border: 5px solid black;  
+  border: 5px solid black;
   border-radius: 10px;
+  overflow: hidden;
 }
 
 .juego img {
-  width: 25%;
+  width: 100%;
   border-radius: 10px;
   padding: auto;
+  transition: transform 0.3s;
+}
+
+.juego:hover img {
+  transform: scale(1.1);
 }
