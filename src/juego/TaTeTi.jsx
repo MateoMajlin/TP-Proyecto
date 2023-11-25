@@ -55,7 +55,7 @@ const TaTeTi = () => {
 
   return (
     <div className={Tateti["retro-container"]}>
-      <h1>TA-TE-TA</h1>
+      <h1>TA-TE-TI</h1>
       <h2 className="top">
             <Link to="/">🔙</Link>
           </h2>
