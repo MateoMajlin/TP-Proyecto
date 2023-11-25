@@ -1,20 +1,71 @@
-.contenedor {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  grid-auto-rows: 120px;
-  grid-gap: 15px;
+body{
+
+margin: 0ig;
+
 }
 
-.juego {
-  height: 100%;
-  transition: none;
+h1{
+
+text-align: center;
+
+background-color: aquamarine;
+
+margin-top: 0;
+
+margin-bottom: 0;
+
 }
 
-.juego:hover {
-  transform: none;
+div{
+
+background: burlywood;
+
+margin: 0px;
+
 }
 
-.juego img {
-  height: 60%;
-  width: 100%; 
+div.juego{
+
+border: 5px solid black;
+
+background-color: white;
+
+display: inline-block;
+
+margin: 10px;
+
+width: 100px;
+
+height: 100px;
+
+text-align: auto;
+
+}
+
+.juego img{
+
+width: 100%;
+
+height: auto;
+
+display: block;
+
+}
+
+.etiqueta{
+
+background-color: grey;
+
+margin-top: 0;
+
+}
+
+.superior{
+
+display: flex;
+
+justify-content: space-between;
+
+background-color: rgb(196, 69, 80);
+
 }
