@@ -22,10 +22,12 @@ function App() {
         </div>
         <h2 className="etiqueta">1 JUGADOR</h2>
         <div className="juego">
-          <img
-            src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
-            alt="pikapika"
-          />
+        <Link to="https://www.macrojuegos.com/juegos/power-pamplona~18500/  ">
+            <img
+              src="https://data.gameflare.com/games/10024/qaXrTYIRTNioTd-400-300.jpg"
+              alt="pikapika"
+            />
+          </Link>
         </div>
         <div className="juego">
           <Link to="./juego/Adivinanza">
