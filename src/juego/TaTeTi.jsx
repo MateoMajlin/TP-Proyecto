@@ -55,7 +55,10 @@ const TaTeTi = () => {
 
   return (
     <div className={Tateti["retro-container"]}>
-      <h1>Ta-Te-Ti</h1>
+      <h1>TA-TE-TA</h1>
+      <h2 className="top">
+            <Link to="/">🔙</Link>
+          </h2>
 
       <div className={Tateti.tablero}>
         {tablero.map((valor, indice) => (
