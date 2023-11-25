@@ -47,9 +47,9 @@ const JuegoPelea = () => {
   return (
     <div className={Juego.pelea}>
     <h2 className="top">
-            <Link to="/">INICIO</Link>
+            <Link to="/">🔙</Link>
           </h2>
-      <h1>Juego de Pelea</h1>
+      <h1>FIGTH</h1>
 
       <div className={Juego.jugadores}>
         <div className={Juego.jugador}>
