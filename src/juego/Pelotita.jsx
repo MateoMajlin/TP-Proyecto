@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Pelotitae from './Pelotita.module.css'; 
+import PelotitaStyles from './Pelotita.module.css'; // Corrige el nombre de la importación
 
 const Pelotita = () => {
   const [jumping, setJumping] = useState(false);
@@ -45,10 +45,10 @@ const Pelotita = () => {
   }, [position]);
 
   return (
-    <div className={styles.App} style={{ marginTop: position }}>
+    <div className={PelotitaStyles.App} style={{ marginTop: position }}>
       <h1>Presiona la barra espaciadora para hacer saltar la bolita</h1>
     </div>
   );
 };
 
-export default App;
+export default Pelotita; // Cambia el nombre de exportación a Pelotita
