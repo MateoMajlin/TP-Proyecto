@@ -82,7 +82,6 @@ function Rutas() {
 
         />
 
-      </Routes>
         <Route  
 
           exact
