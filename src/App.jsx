@@ -18,7 +18,7 @@ function App() {
           </h2>
         </div>
         <div>
-          <h1>"JUEGOS K 🕹️"</h1>
+          <h1>"🕹️ JUEGOS K 🕹️"</h1>
         </div>
         <h2 className="etiqueta">1 JUGADOR</h2>
         <div className="juego">
