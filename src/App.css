@@ -27,9 +27,16 @@ h1 {
   font-size: 1.2em;
 }
 
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .juego {
   margin: 10px;
-  width: 200px; /* Ajusta el ancho de los juegos según tu preferencia */
+  width: 200px; /* Ajusta el ancho máximo según tu preferencia */
+  max-width: 100%;
 }
 
 .juego img {
