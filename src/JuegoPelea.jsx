@@ -1,4 +1,4 @@
-import "./JuegoRaro.css";
+import "./Juego.css";
 import { useState } from "react";
 
 const JuegoPelea = () => {
