@@ -1,15 +1,15 @@
 :local(.calculadora-container) {
   text-align: center;
   font-family: 'Arial', sans-serif;
-  background-color: #f0f0f0;
+  background-color: #ffe6e6; /* Tono rosa claro */
   padding: 20px;
   border-radius: 10px;
   width: 300px;
-  margin: 0 auto;
+  margin: 10% auto; /* Centrar verticalmente y horizontalmente */
 }
 
 :local(h1) {
-  color: #ff9900;
+  color: #ff66b2; /* Rosa fuerte */
   text-shadow: 2px 2px 5px #333;
 }
 
@@ -21,6 +21,7 @@
   display: block;
   font-size: 16px;
   margin-bottom: 5px;
+  color: #ff66b2; /* Rosa fuerte */
 }
 
 :local(input) {
@@ -30,7 +31,7 @@
 }
 
 :local(button) {
-  background-color: #0099cc;
+  background-color: #ff66b2; /* Rosa fuerte */
   color: #ffffff;
   font-size: 16px;
   padding: 10px 20px;
@@ -40,10 +41,11 @@
 }
 
 :local(button:hover) {
-  background-color: #ffcc00;
+  background-color: #ff3385; /* Rosa medio */
 }
 
 :local(.resultado) {
   margin-top: 20px;
   font-size: 18px;
+  color: #ff3385; /* Rosa medio */
 }
