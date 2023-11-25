@@ -1,61 +1,79 @@
 import React, { useState } from "react";
-
 import "./Adivinanza.css";
 
 const Adivinanza = () => {
 
-  const numeroAleatorio = Math.floor(Math.random() * 100) + 1;
-  
-  const [adivinanza, setAdivinanza] = useState("");
-  
-  const [intentos, setIntentos] = useState(0);
+  const [numeroAleatorio, setNumeroAleatorio] = useState(
+    Math.floor(Math.random() * 100) + 1  
+  );
+
+  const [adivinanzaUsuario, setAdivinanzaUsuario] = useState("");
    
+  const [intentos, setIntentos] = useState(0);
+
   const [mensaje, setMensaje] = useState("");
 
-  const manejarAdivinanza = (event) => {
+  const manejarCambio = (event) => {
+    setAdivinanzaUsuario(event.target.value);
+  }
 
-    setAdivinanza(event.target.value);
+  const verificarRespuesta = () => {
 
-  };
-
-  const verificarAdivinanza = () => {
-
-    const numeroIngresado = parseInt(adivinanza);
+    const numeroIngresado = parseInt(adivinanzaUsuario);
 
     if (isNaN(numeroIngresado)) {
-
-      setMensaje("Por favor, ingresa un número válido.");
-    
+      setMensaje("Debes ingresar un número");    
     } else {
-
+    
       setIntentos(intentos + 1);
 
       if (numeroIngresado === numeroAleatorio) {
-
-        setMensaje(`¡Correcto! Adivinaste el número en ${intentos} intentos.`);
+        setMensaje(`¡Adivinaste en ${intentos} intentos!`);
+        generaNuevoNumero();
       
-      } else if (numeroIngresado < numeroAleatorio) {
-
-        setMensaje("El número es demasiado bajo. Intenta de nuevo.");
+      } else if (numeroIngresado < numeroAleatorio) {        
+        setMensaje("Demasiado bajo...");
       
-      } else {
-
-        setMensaje("El número es demasiado alto. Intenta de nuevo.");
-      
+      } else {       
+        setMensaje("Demasiado alto...");
       }
 
     }
 
-  };
+  }
+  
+  const generaNuevoNumero = () => {
+    const nuevoAleatorio = Math.floor(Math.random() * 100) + 1;  
+    setNumeroAleatorio(nuevoAleatorio);
+  }
 
   return (
+  <div className="adivinanza">
+    <h1>Adivina el Número</h1>
 
-    <div>
-      // resto del componente 
-    </div>
+    <p>Tenés {intentos} intento{intentos > 1 && "s"}</p>
 
-  );
+    <input
+      type="number"
+      value={adivinanzaUsuario}
+      onChange={manejarCambio}
+    />
 
-};
+    <button onClick={verificarRespuesta}>Verificar</button>
+
+    <p>{mensaje}</p>
+
+    {
+      numeroAleatorio > 0 && 
+      <p>
+        Número aleatorio entre 1 y 100: 
+        <strong>{numeroAleatorio}</strong>  
+      </p>
+    }
+
+  </div>
+); 
+
+}
 
 export default Adivinanza;
