@@ -72,11 +72,13 @@ function App() {
             />
           </Link>
         </div>
-        <div className="juego">
-          <img
-            src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
-            alt="pikapika"
-          />
+       <div className="juego">
+          <Link to="./JuegoPelea">
+            <img
+              src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
+              alt="pikapika"
+            />
+          </Link>
         </div>
         <div className="juego">
           <img
