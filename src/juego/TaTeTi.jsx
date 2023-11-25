@@ -7,30 +7,31 @@ const TaTeTi = () => {
   const [ganador, setGanador] = useState(null);
 
   const comprobarGanador = () => {
-    const lineasGanadoras = [
-      [0, 1, 2],
-      [3, 4, 5],
-      [6, 7, 8],
-      [0, 3, 6],
-      [1, 4, 7],
-      [2, 5, 8],
-      [0, 4, 8],
-      [2, 4, 6]
-    ];
+  const lineasGanadoras = [
+    [0, 1, 2],
+    [3, 4, 5],
+    [6, 7, 8],
+    [0, 3, 6],
+    [1, 4, 7],
+    [2, 5, 8],
+    [0, 4, 8],
+    [2, 4, 6]
+  ];
 
-    for (let i = 0; i < lineasGanadoras.length; i++) {
-      const [a, b, c] = lineasGanadoras[i];
+  for (let i = 0; i < lineasGanadoras.length; i++) {
+    const [a, b, c] = lineasGanadoras[i];
 
-      if (tablero[a] && tablero[a] === tablero[b] && tablero[a] === tablero[c]) {
-        setGanador(tablero[a]);
-        return;
-      }
+    if (tablero[a] && tablero[a] === tablero[b] && tablero[a] === tablero[c]) {
+      setGanador(tablero[a]);
+      return;
     }
+  }
 
-    if (!tablero.includes(null)) {
-      setGanador("Empate");
-    }
-  };
+  if (!tablero.includes(null) && !ganador) {
+    setGanador("Empate");
+  }
+};
+
 
   const manejarClick = (indice) => {
     if (tablero[indice] || ganador) {
