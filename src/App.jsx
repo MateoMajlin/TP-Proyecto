@@ -32,7 +32,7 @@ function App() {
         <div className="juego">
           <Link to="./juego/Adivinanza">
             <img
-              src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-cntOunZDOAQSX-TBH2fstWxbSaclrfSR-Q&usqp=CAU"
               alt="pikapika"
             />
           </Link>
