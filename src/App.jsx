@@ -119,7 +119,7 @@ function App() {
             />
           </Link>
         </div>
-        </>
+        
     </>
   );
      }
