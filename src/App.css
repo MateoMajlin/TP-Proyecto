@@ -1,71 +1,41 @@
-body{
-
-margin: 0ig;
-
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif; 
 }
 
-h1{
+.contenedor {
+  height: 100%;
+  background: #f2f5f6; 
+  padding: 20px;
 
-text-align: center;
-
-background-color: aquamarine;
-
-margin-top: 0;
-
-margin-bottom: 0;
-
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 20px;
 }
 
-div{
-
-background: burlywood;
-
-margin: 0px;
-
+.juego {
+  cursor: pointer; 
+  border-radius: 6px;
+  overflow: hidden;
+  transition: transform 0.2s;
 }
 
-div.juego{
-
-border: 5px solid black;
-
-background-color: white;
-
-display: inline-block;
-
-margin: 10px;
-
-width: 100px;
-
-height: 100px;
-
-text-align: auto;
-
+.juego:hover {
+  transform: scale(1.05); 
 }
 
-.juego img{
-
-width: 100%;
-
-height: auto;
-
-display: block;
-
+.juego img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.etiqueta{
-
-background-color: grey;
-
-margin-top: 0;
-
-}
-
-.superior{
-
-display: flex;
-
-justify-content: space-between;
-
-background-color: rgb(196, 69, 80);
-
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: 2em;
+  padding: 10px 20px;
+  background: #29487d;
+  color: white;  
 }
