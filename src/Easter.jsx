@@ -1,5 +1,5 @@
-	import React, { useState } from 'react';
-import styles from './Easter.module.css';
+import React, { useState } from 'react';
+import styles from './JuegoRaro.module.css';
 
 const Easter = () => {
   const [posicion, setPosicion] = useState({ x: 100, y: 100 });
