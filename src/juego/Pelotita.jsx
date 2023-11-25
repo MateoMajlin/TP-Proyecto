@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import styles from './App.module.css'; // Importa el archivo CSS como un objeto
+import Pelotita from './Pelotita.module.css'; 
 
 const Pelotita = () => {
   const [jumping, setJumping] = useState(false);
