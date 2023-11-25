@@ -8,6 +8,7 @@ import Adivinanza from "./juego/Adivinanza";
 import JuegoDosJugadores from "./juego/JuegoDosJugadores";
 import JuegoPelea from "./juego/JuegoPelea";
 import TaTeTi from "./juego/TaTeTi";
+import CalculadoraPorcentajes from "./CalculadoraPorcentajes";
 
 function Rutas() {
   return (
@@ -15,6 +16,7 @@ function Rutas() {
       <Route exact path="/" element={<App />} />
       <Route exact path="/juego/JuegoPelea" element={<JuegoPelea />} />
        <Route exact path="/juego/TaTeTi" element={<TaTeTi />} />
+       <Route exact path="/juego/CalculadoraPorcentajes" element={<CalculadoraPorcentajes />} />
       <Route exact path="/Cuenta" element={<Cuenta />} />
       <Route exact path="/Easter" element={<Easter />} />
       <Route exact path="/Cuenta/IniciarSesion" element={<IniciarSesion />} />
