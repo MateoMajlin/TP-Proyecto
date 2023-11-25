@@ -1,63 +1,71 @@
-body {
-  font-family: 'Arial', sans-serif;
-  background-color: #f2f2f2;
-  margin: 0;
+body{
+
+margin: 0ig;
+
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  color: white;
-  padding: 10px;
+h1{
+
+text-align: center;
+
+background-color: aquamarine;
+
+margin-top: 0;
+
+margin-bottom: 0;
+
 }
 
-.header h1 {
-  margin: 0;
+div{
+
+background: burlywood;
+
+margin: 0px;
+
 }
 
-.nav {
-  display: flex;
-  justify-content: space-around;
-  background-color: #333;
-  color: white;
-  padding: 10px;
+div.juego{
+
+border: 5px solid black;
+
+background-color: white;
+
+display: inline-block;
+
+margin: 10px;
+
+width: 100px;
+
+height: 100px;
+
+text-align: auto;
+
 }
 
-.nav a {
-  color: white;
-  text-decoration: none;
+.juego img{
+
+width: 100%;
+
+height: auto;
+
+display: block;
+
 }
 
-.body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.etiqueta{
+
+background-color: grey;
+
+margin-top: 0;
+
 }
 
-.juegos {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+.superior{
 
-.juego-img {
-  width: 200px; /* Ajusta el ancho máximo según tu preferencia */
-  max-width: 100%;
-  margin: 10px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s;
-  transform: rotate(0deg); /* Agrega esta línea para establecer la rotación inicial */
-}
+display: flex;
 
-.juego-img:hover {
-  transform: scale(1.1) rotate(0deg); /* Elimina la rotación al pasar el mouse */
-}
+justify-content: space-between;
 
-.logo img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
+background-color: rgb(196, 69, 80);
+
 }
