@@ -54,7 +54,7 @@ function App() {
         <div className="juego">
         <Link to="https://www.friv.com/z/games/savagepursuit/game.html?c">
             <img
-              src="https://w7.pngwing.com/pngs/597/703/png-transparent-ben-10-animated-series-storyboard-others-miscellaneous-reading-grass.png"
+              src="https://images.squarespace-cdn.com/content/v1/5b73289c7e3c3af73df73f0d/1616452865068-L71CH1I8U172K6KUFLAP/B10_header.jpg"
               alt="pikapika"
             />
           </Link>
