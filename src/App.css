@@ -42,7 +42,7 @@ h1 {
 }
 
 .juego img {
-  width: 100%;
+  width: 25%;
   border-radius: 10px;
   padding: auto;
   transition: transform 0.3s;
