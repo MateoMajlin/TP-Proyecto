@@ -46,3 +46,11 @@ div.juego {
     background-color: #c44550;
     padding: 2vw; /* Uso de vw para el padding */
 }
+
+/* Estilo adicional para hacer que los juegos se organicen en filas en pantallas más pequeñas */
+@media (max-width: 768px) {
+    div.juego {
+        width: 40vw;
+        height: 40vw;
+    }
+}
