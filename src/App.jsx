@@ -1,5 +1,6 @@
 import "./App.css";
 import { Link } from 'react-router-dom';
+import "./Adivinanza.jsx";
 function App() {
    return (
       <>
@@ -12,7 +13,7 @@ function App() {
       </div>
       <h2 className="etiqueta">1 Jugador</h2>
       <div className="juego"><Link to="https://www.txori.com/dbdevolution"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNF-1cfNRlyGgOT_4emHVmZpewEGjSXtXzmIrkE_Uldyawa6VwiC7jGfD7pxtprHCJ0vc&usqp=CAU" alt="pikapika"></img></Link></div>
-      <div className="juego"><Link to="https://www.txori.com/dbdevolution"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNF-1cfNRlyGgOT_4emHVmZpewEGjSXtXzmIrkE_Uldyawa6VwiC7jGfD7pxtprHCJ0vc&usqp=CAU" alt="pikapika"></img></Link></div>
+      <div className="juego"><Link to="./Adivinanza"><img src="https://cdn.pixabay.com/photo/2016/03/31/19/58/riddle-1295268_960_720.png" alt="pikapika"></img></Link></div>
       <div className="juego"><img src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg" alt="pikapika"></img></div>
       <br></br>
       <div className="juego"><img src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg" alt="pikapika"></img></div>
