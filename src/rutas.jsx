@@ -4,9 +4,9 @@ import Cuenta from "./Cuenta";
 import Easter from "./Easter";
 import IniciarSesion from "./IniciarSesion";
 import CrearCuenta from "./CrearCuenta";
-import Adivinanza from "./Adivinanza";
-import JuegoDosJugadores from "./JuegoDosJugadores";
-import JuegoPelea from "./JuegoPelea";
+import Adivinanza from "./juego/Adivinanza";
+import JuegoDosJugadores from "./juego/JuegoDosJugadores";
+import JuegoPelea from "./juego/JuegoPelea";
 
 function Rutas() {
   return (
