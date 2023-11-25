@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Adivinanza.css";
+import Adiv from "./Adivinanza.module.css";
 
 const Adivinanza = () => {
 
@@ -48,7 +48,7 @@ const Adivinanza = () => {
   }
 
   return (
-  <div className="adivinanza">
+  <div className={Adiv.adivinanza}>
     <h1>Adivina el Número</h1>
 
     <p>Tenés {intentos} intento{intentos > 1 && "s"}</p>
