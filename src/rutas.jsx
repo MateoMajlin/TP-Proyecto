@@ -8,7 +8,7 @@ import Adivinanza from "./juego/Adivinanza";
 import JuegoDosJugadores from "./juego/JuegoDosJugadores";
 import JuegoPelea from "./juego/JuegoPelea";
 import TaTeTi from "./juego/TaTeTi";
-import CalculadoraPorcentajes from "./CalculadoraPorcentajes";
+import CalculadoraPorcentajes from "./juego/CalculadoraPorcentajes";
 
 function Rutas() {
   return (
