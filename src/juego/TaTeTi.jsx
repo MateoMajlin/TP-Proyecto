@@ -1,4 +1,4 @@
-TETETIII: 
+import Tateti from "./Tateti.module.css";
 import { useState } from "react";
 
 const TaTeTi = () => {
