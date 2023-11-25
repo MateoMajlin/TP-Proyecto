@@ -5,6 +5,9 @@ import "./App.css";
 function App() {
   return (
     <>
+       <div>
+          <h1>🎮JUEGOS K🎮</h1>
+        </div>
       <div className="body">
         <div className="superior">
           <h2 className="top">
@@ -17,9 +20,7 @@ function App() {
             <Link to="/Easter">EASTER</Link>
           </h2>
         </div>
-        <div>
-          <h1>JUEGOS K</h1>
-        </div>
+      
         <h2 className="etiqueta">1 JUGADOR</h2>
         <div className="juego">
           <Link to="https://www.txori.com/dbdevolution">
