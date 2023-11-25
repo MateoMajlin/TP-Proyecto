@@ -30,7 +30,7 @@ function App() {
           </Link>
         </div>
         <div className="juego">
-          <Link to="./Adivinanza">
+          <Link to="./juego/Adivinanza">
             <img
               src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
               alt="pikapika"
@@ -65,7 +65,7 @@ function App() {
         <h2 className="etiqueta">2 Jugadores</h2>
         
        <div className="juego">
-          <Link to="./JuegoDosJugadores">
+          <Link to="./juego/JuegoDosJugadores">
             <img
               src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
               alt="pikapika"
@@ -73,7 +73,7 @@ function App() {
           </Link>
         </div>
        <div className="juego">
-          <Link to="./JuegoPelea">
+          <Link to="./juego/JuegoPelea">
             <img
               src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
               alt="pikapika"
