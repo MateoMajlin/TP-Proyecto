@@ -70,6 +70,7 @@ function App() {
             />
           </Link>
         </div>
+        <br></br>
         <h2 className="etiqueta">2 JUGADORES</h2>
         
        <div className="juego">
