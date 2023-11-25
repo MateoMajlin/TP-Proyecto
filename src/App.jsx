@@ -106,7 +106,7 @@ function App() {
       <div className="juego">
         <Link to="https://www.juegos.com/juego/nino-fuego-y-nina-agua-2-templo-de-luz">
             <img
-              src="https://extinfenix.com/wp-content/uploads/2021/03/fire-and-water-2354583_1920.jpg"
+              src="https://www.friv5online.com/files/images/f0/f001e3a4a9ef5c0c7173b705609aea7f.png"
               alt="pikapika"
             />
           </Link>
