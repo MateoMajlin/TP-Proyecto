@@ -61,7 +61,6 @@ function App() {
             />
           </Link>
         </div>
-        </div>
         <div className="juego">
         <Link to="https://www.1001juegos.com/juego/papas-pizzeria">
             <img
