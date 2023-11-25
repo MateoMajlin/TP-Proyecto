@@ -51,19 +51,19 @@ function App() {
             src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
             alt="pikapika"
           />
-       <div className="juego">
-          <Link to="./juego/Cartas">
+        <div className="juego">
+        <Link to="https://www.friv.com/z/games/savagepursuit/game.html?c">
             <img
-              src="https://cdn-icons-png.flaticon.com/512/3894/3894401.png"
+              src="https://cn.i.cdn.ti-platform.com/cnemea/content/1185/game/savage-pursuit/za/savagepursuit-b10c-cover-en.jpg "
               alt="pikapika"
             />
           </Link>
         </div>
         </div>
         <div className="juego">
-        <Link to="https://www.friv.com/z/games/savagepursuit/game.html?c">
+        <Link to="https://www.1001juegos.com/juego/papas-pizzeria">
             <img
-              src="https://cn.i.cdn.ti-platform.com/cnemea/content/1185/game/savage-pursuit/za/savagepursuit-b10c-cover-en.jpg "
+              src="https://i.ytimg.com/vi/q2uBg1MeBsM/maxresdefault.jpg"
               alt="pikapika"
             />
           </Link>
