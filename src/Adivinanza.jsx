@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Adivinanza.css";
+import Adivinanza from "./Adivinanza.module.css";
 
 const Adivinanza = () => {
 
