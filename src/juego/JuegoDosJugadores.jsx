@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./dos.css";
+import { Link } from "react-router-dom";
 
 const JuegoDosJugadores = () => {
   const [opcionJugador1, setOpcionJugador1] = useState("");
@@ -32,6 +33,9 @@ const JuegoDosJugadores = () => {
 
   return (
     <div>
+          <h2 className="top">
+            <Link to="/">INICIO</Link>
+          </h2>
       <h1>Juego de Piedra, Papel o Tijeras</h1>
 
       <label>
