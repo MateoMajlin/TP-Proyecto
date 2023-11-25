@@ -54,14 +54,14 @@ const TaTeTi = () => {
   };
 
   return (
-    <div className="retro-container">
+    <div className={Tateti["retro-container"]}>
       <h1>Ta-Te-Ti Retro 2000</h1>
 
-      <div className="tablero">
+      <div className={Tateti.tablero}>
         {tablero.map((valor, indice) => (
           <div 
             key={indice}
-            className={casilla ${valor}}
+            className={`${Tateti.casilla} ${valor}`}
             onClick={() => manejarClick(indice)}
           >
             {valor}
@@ -70,18 +70,18 @@ const TaTeTi = () => {
       </div>
 
       {ganador && (
-        <div className="mensaje">
+        <div className={Tateti.mensaje}>
           {ganador === "Empate" 
             ? "¡Es un empate!"
-            : ¡${ganador} ha ganado!}
+            : `${ganador} ha ganado!`}
         </div>
       )}
 
-      <button className="reiniciar" onClick={reiniciarJuego}>
+      <button className={Tateti.reiniciar} onClick={reiniciarJuego}>
         Reiniciar Juego
       </button>
     </div>
   );
 };
 
-	export default TaTeTi;
+export default TaTeTi;
