@@ -1,8 +1,8 @@
 :local(.retro-container) {
   text-align: center;
-  font-family: 'Verdana', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: #222;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -10,8 +10,8 @@
 }
 
 :local(h1) {
-  color: #ff9900;
-  text-shadow: 2px 2px 5px #333;
+  color: #ffcc00;
+  text-shadow: 2px 2px 5px #000;
 }
 
 :local(.tablero) {
@@ -28,14 +28,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #0099cc;
-  color: #ffffff;
+  background-color: #333;
+  color: #ffcc00;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 :local(.casilla:hover) {
-  background-color: #ffcc00;
+  background-color: #555;
 }
 
 :local(.X) {
@@ -50,11 +50,12 @@
   font-size: 24px;
   font-weight: bold;
   margin-top: 20px;
+  color: #ffcc00;
 }
 
 :local(.reiniciar) {
-  background-color: #0099cc;
-  color: #ffffff;
+  background-color: #333;
+  color: #ffcc00;
   font-size: 16px;
   padding: 10px 20px;
   margin-top: 20px;
@@ -64,5 +65,5 @@
 }
 
 :local(.reiniciar:hover) {
-  background-color: #ffcc00;
+  background-color: #555;
 }
