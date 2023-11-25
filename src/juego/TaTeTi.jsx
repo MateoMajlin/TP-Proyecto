@@ -1,0 +1,87 @@
+TETETIII: 
+import { useState } from "react";
+
+const TaTeTi = () => {
+
+  const [tablero, setTablero] = useState(Array(9).fill(null));
+  const [turno, setTurno] = useState("X");
+  const [ganador, setGanador] = useState(null);
+
+  const comprobarGanador = () => {
+    const lineasGanadoras = [
+      [0, 1, 2],
+      [3, 4, 5],
+      [6, 7, 8],
+      [0, 3, 6],
+      [1, 4, 7],
+      [2, 5, 8],
+      [0, 4, 8],
+      [2, 4, 6]
+    ];
+
+    for (let i = 0; i < lineasGanadoras.length; i++) {
+      const [a, b, c] = lineasGanadoras[i];
+
+      if (tablero[a] && tablero[a] === tablero[b] && tablero[a] === tablero[c]) {
+        setGanador(tablero[a]);
+        return;
+      }
+    }
+
+    if (!tablero.includes(null)) {
+      setGanador("Empate");
+    }
+  };
+
+  const manejarClick = (indice) => {
+    if (tablero[indice] || ganador) {
+      return;
+    }
+
+    const nuevoTablero = [...tablero];
+    nuevoTablero[indice] = turno;
+    setTablero(nuevoTablero);
+
+    comprobarGanador();
+
+    setTurno(turno === "X" ? "O" : "X");
+  };
+
+  const reiniciarJuego = () => {
+    setTablero(Array(9).fill(null));
+    setTurno("X");
+    setGanador(null);
+  };
+
+  return (
+    <div className="retro-container">
+      <h1>Ta-Te-Ti Retro 2000</h1>
+
+      <div className="tablero">
+        {tablero.map((valor, indice) => (
+          <div 
+            key={indice}
+            className={casilla ${valor}}
+            onClick={() => manejarClick(indice)}
+          >
+            {valor}
+          </div>
+        ))}
+      </div>
+
+      {ganador && (
+        <div className="mensaje">
+          {ganador === "Empate" 
+            ? "¡Es un empate!"
+            : ¡${ganador} ha ganado!}
+        </div>
+      )}
+
+      <button className="reiniciar" onClick={reiniciarJuego}>
+        Reiniciar Juego
+      </button>
+    </div>
+  );
+};
+
+	export default TaTeTi;
