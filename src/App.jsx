@@ -32,7 +32,7 @@ function App() {
         <div className="juego">
           <Link to="./Adivinanza">
             <img
-              src="https://cdn.pixabay.com/photo/2016/03/31/19/58/riddle-1295268_960_720.png"
+              src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
               alt="pikapika"
             />
           </Link>
@@ -67,7 +67,7 @@ function App() {
        <div className="juego">
           <Link to="./JuegoDosJugadores">
             <img
-              src="https://cdn.pixabay.com/photo/2016/03/31/19/58/riddle-1295268_960_720.png"
+              src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
               alt="pikapika"
             />
           </Link>
