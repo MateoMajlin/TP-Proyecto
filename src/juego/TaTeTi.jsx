@@ -2,7 +2,6 @@ import Tateti from "./Tateti.module.css";
 import { useState } from "react";
 
 const TaTeTi = () => {
-
   const [tablero, setTablero] = useState(Array(9).fill(null));
   const [turno, setTurno] = useState("X");
   const [ganador, setGanador] = useState(null);
