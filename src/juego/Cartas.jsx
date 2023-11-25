@@ -1,6 +1,7 @@
 // App.js
 import React, { useState, useEffect } from 'react';
 import styles from './Cartas.module.css';
+import Card from './Card'; // Asegúrate de importar el componente Card
 
 const Cartas = () => {
   const [cards, setCards] = useState(generateCards());
@@ -55,7 +56,7 @@ const Cartas = () => {
       <p>Movimientos: {moves}</p>
       <div className={styles.cardsContainer}>
         {cards.map((card) => (
-          <Cartas
+          <Card
             key={card.id}
             card={card}
             flipped={flippedCards.includes(card.id) || matchedPairs.includes(card.symbol)}
