@@ -1,6 +1,5 @@
 // App.js
 import React, { useState, useEffect } from 'react';
-import styles from './Cartas.module.css';
 import Card from './Card'; 
 const Cartas = () => {
   const [cards, setCards] = useState(generateCards());
