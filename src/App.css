@@ -19,14 +19,17 @@ body {
 h1 {
   text-align: center;
   color: #333;
+  font-size: 1.5em;
 }
 
 .etiqueta {
   margin-top: 20px;
+  font-size: 1.2em;
 }
 
 .juego {
   margin: 10px;
+  width: 200px; /* Ajusta el ancho de los juegos según tu preferencia */
 }
 
 .juego img {
