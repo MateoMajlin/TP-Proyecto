@@ -1,5 +1,6 @@
 body {
   margin: 0;
+   transform: rotate(0deg); /* Evitar rotación de la imagen */
 }
 
 h1 {
@@ -7,11 +8,13 @@ h1 {
   background-color: aquamarine;
   margin-top: 0;
   margin-bottom: 0;
+   transform: rotate(0deg); /* Evitar rotación de la imagen */
 }
 
 div {
   background: burlywood;
   margin: 0;
+   transform: rotate(0deg); /* Evitar rotación de la imagen */
 }
 
 div.juego {
@@ -33,19 +36,23 @@ div.juego {
   height: auto;
   display: block;
   transition: transform 0.3s;
+   transform: rotate(0deg); /* Evitar rotación de la imagen */
 }
 
 .juego:hover {
   transform: scale(1.2);
+   transform: rotate(0deg); /* Evitar rotación de la imagen */
 }
 
 .etiqueta {
   background-color: grey;
   margin-top: 0;
+   transform: rotate(0deg); /* Evitar rotación de la imagen */
 }
 
 .superior {
   display: flex;
   justify-content: space-between;
   background-color: rgb(196, 69, 80);
+   transform: rotate(0deg); /* Evitar rotación de la imagen */
 }
