@@ -4,6 +4,7 @@ import Cuenta from "./Cuenta";
 import Easter from "./Easter";
 import IniciarSesion from "./IniciarSesion";
 import CrearCuenta from "./CrearCuenta";
+import Adivinanza from "./Adivinanza";
 
 function Rutas() {
   return (
