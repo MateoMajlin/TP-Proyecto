@@ -1,0 +1,41 @@
+/* Adivinanza.module.css */
+
+.adivinanza {
+  background-color: #3d3d3d;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #ffd700; /* Amarillo brillante similar al color del trofeo de la Copa del Mundo */
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #008080; /* Verde azulado similar al color del césped del estadio */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #006666; /* Cambia el color al pasar el ratón sobre el botón */
+}
+
+strong {
+  color: #ffd700;
+}
+
+/* Estilos adicionales según tus preferencias */
