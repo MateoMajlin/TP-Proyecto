@@ -13,6 +13,7 @@ function Rutas() {
     <Routes>
       <Route exact path="/" element={<App />} />
       <Route exact path="/juego/JuegoPelea" element={<JuegoPelea />} />
+       <Route exact path="/juego/TaTeTi" element={<TaTeTi />} />
       <Route exact path="/Cuenta" element={<Cuenta />} />
       <Route exact path="/Easter" element={<Easter />} />
       <Route exact path="/Cuenta/IniciarSesion" element={<IniciarSesion />} />
