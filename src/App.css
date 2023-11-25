@@ -1,47 +1,57 @@
-.body {
-  font-family: Arial, sans-serif;
-  text-align: center;  
+body {
+  margin: 0;
 }
 
-.superior {
-  background-color: #3472cf;
-  overflow: hidden;
-  display: flex;
-  justify-content: space-between;
-}
-
-.top {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;  
-}
-
-.top:hover {
-  background-color: #ddd;
-  color: black;
-}
-   
 h1 {
-  font-size: 50px;   
+  text-align: center;
+  background-color: #2980b9;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #ecf0f1;
+  padding: 10px;
 }
 
-.etiqueta {
-  font-size: 30px;
-  margin: 20px 0; 
+div {
+  background: #ecf0f1;
+  margin: 0;
 }
 
-.juego {
+div.juego {
+  border: 5px solid #2c3e50;
+  background-color: #ecf0f1;
   display: inline-block;
-  width: 30%;
-  margin: 0 1.5%;
-  border: 5px solid black;  
-  border-radius: 10px;
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .juego img {
-  width: 25%;
-  border-radius: 10px;
-  padding: auto;
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s;
 }
+
+.juego:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.etiqueta {
+  background-color: #7f8c8d;
+  margin-top: 0;
+  color: #ecf0f1;
+  padding: 5px;
+}
+
+.superior {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2980b9;
+  padding: 10px;
+}
+
