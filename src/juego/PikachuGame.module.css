@@ -1,0 +1,13 @@
+:local(.pikachu-game) {
+  text-align: center;
+}
+
+:local(.pikachu) {
+  width: 100px;
+  height: 100px;
+  transition: transform 0.2s ease-in-out;
+}
+
+:local(.pikachu:hover) {
+  transform: scale(1.1);
+}
