@@ -1,5 +1,6 @@
 import Tateti from "./Tateti.module.css";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const TaTeTi = () => {
   const [tablero, setTablero] = useState(Array(9).fill(null));
