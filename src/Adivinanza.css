@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: radial-gradient(circle, #a971f2, #667eea, #764ba2);
+  animation: rotate-bg 10s linear infinite;
+}
+
+@keyframes rotate-bg {
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 72px;
+  font-family: 'Papyrus';
+  background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: slide-rainbow 5s linear infinite;
+}
+
+@keyframes slide-rainbow {
+   to {
+     background-position: 100% 0;
+   }
+}
+
+img {
+  width: 400px;
+  margin: 80px;
+  border: 10px dashed magenta;
+  border-radius: 50%;
+  box-shadow: 0 0 30px hotpink;
+  animation: spin-duck 8s linear infinite; 
+}
+
+@keyframes spin-duck {
+  to {
+    transform: rotate(360deg) scale(1.1);
+  }
+}
+
+p {
+  font-family: 'Comic Sans MS';
+  font-size: 32px;
+  font-weight: bold;
+  color: limegreen;
+  text-shadow: 2px 2px blueviolet;
+}
