@@ -67,7 +67,7 @@ function App() {
        <div className="juego">
           <Link to="./juego/JuegoDosJugadores">
             <img
-              src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
+              src="https://media.istockphoto.com/id/1056840214/es/vector/piedra-papel-tijera-ilustraci%C3%B3n-vectorial.jpg?s=612x612&w=0&k=20&c=csejv5CWnlwVtrAlElVS4V5ZDxWYeh9_tP7clemraDY="
               alt="pikapika"
             />
           </Link>
@@ -75,7 +75,7 @@ function App() {
        <div className="juego">
           <Link to="./juego/JuegoPelea">
             <img
-              src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
+              src="https://www.shutterstock.com/image-vector/vector-cartoon-stick-figure-drawing-260nw-1603967566.jpg"
               alt="pikapika"
             />
           </Link>
