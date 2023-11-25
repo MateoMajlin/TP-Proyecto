@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./dos.css";
+
 const JuegoDosJugadores = () => {
   const [opcionJugador1, setOpcionJugador1] = useState("");
   const [opcionJugador2, setOpcionJugador2] = useState("");
@@ -9,7 +10,7 @@ const JuegoDosJugadores = () => {
 
   const jugar = () => {
     if (
-      !opcionesValidas.includes(opcionJugador1)  
+      !opcionesValidas.includes(opcionJugador1) ||
       !opcionesValidas.includes(opcionJugador2)
     ) {
       setResultado("Por favor, elige opciones válidas: piedra, papel o tijeras.");
@@ -19,7 +20,7 @@ const JuegoDosJugadores = () => {
     if (opcionJugador1 === opcionJugador2) {
       setResultado("¡Empate!");
     } else if (
-      (opcionJugador1 === "piedra" && opcionJugador2 === "tijeras")  
+      (opcionJugador1 === "piedra" && opcionJugador2 === "tijeras") ||
       (opcionJugador1 === "papel" && opcionJugador2 === "piedra") ||
       (opcionJugador1 === "tijeras" && opcionJugador2 === "papel")
     ) {
