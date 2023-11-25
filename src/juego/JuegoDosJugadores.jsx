@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./dos.css";
 import { Link } from "react-router-dom";
-
+ 
 const JuegoDosJugadores = () => {
   const [opcionJugador1, setOpcionJugador1] = useState("");
   const [opcionJugador2, setOpcionJugador2] = useState("");
