@@ -15,7 +15,22 @@
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: none;  
+}
+   
+h1 {
+  font-size: 50px;   
+}
+
+.etiqueta {
+  font-size: 30px;
+  margin: 20px 0; 
+}
+
+.juego {
+  display: inline-block;
+  width: 30%;
+  margin: 0 1.5%;
 }
 
 .top:hover {
@@ -23,31 +38,21 @@
   color: black;
 }
 
-h1 {
-  font-size: 50px;
-}
-
 .etiqueta {
   font-size: 30px;
   margin: 20px 0;
 }
 
-.juego {
-  display: inline-block;
-  width: 30%;
-  margin: 0 1.5%;
-  border: 5px solid black;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
 .juego img {
-  width: 25%;
-  border-radius: 10px;
+  width: 50%; 
   padding: auto;
   transition: transform 0.3s;
 }
+img{
+  border: 5px solid black;
+  border-radius: 20px;
+}
 
 .juego:hover img {
-  transform: scale(1.1);
+  transform: scale(1.5);
 }
