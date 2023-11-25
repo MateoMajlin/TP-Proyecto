@@ -5,20 +5,24 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="body">
-        <div className="superior">
-          <h2 className="top">
-            <Link to="/">Inicio</Link>
-          </h2>
-          <h2 className="top">
-            <Link to="/Cuenta">Cuenta</Link>
-          </h2>
-          <h2 className="top">
-            <Link to="/Easter">Easter</Link>
-          </h2>
+      <div className="header">
+        <h1>Juegos K</h1>
+        <div className="logo">
+          <img
+            src="ruta/a/tu/logo.png"
+            alt="Logo"
+            width="50"
+            height="50"
+          />
         </div>
-        <div>
-          <h1>Juegos K</h1>
+      </div>
+      <div className="nav">
+        <Link to="/">Inicio</Link>
+        <Link to="/Cuenta">Cuenta</Link>
+        <Link to="/Easter">Easter</Link>
+      </div>
+      <div className="body">
+        <div className="juegos">
         </div>
         <h2 className="etiqueta">1 Jugador</h2>
         <div className="juego">
