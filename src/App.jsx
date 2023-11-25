@@ -63,7 +63,7 @@ function App() {
           </Link>
         </div>
         <div className="juego">
-          <Link to=": https://www.1001juegos.com/juego/kick-buttowski">
+          <Link to="https://www.1001juegos.com/juego/kick-buttowski">
             <img
               src="https://images.crazygames.com/games/kick-buttowski/cover-1653539825654.png?auto=format%2Ccompress&q=45&cs=strip&ch=DPR&w=1200&h=630&fit=crop"
               alt="pikapika"
