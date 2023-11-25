@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Pikachu from './Pikachu';
-import './PikachuGame.module.css';
+import styles from './PikachuGame.module.css';
 
 const PikachuGame = () => {
   const [score, setScore] = useState(0);
@@ -19,7 +19,7 @@ const PikachuGame = () => {
   }, [score]);
 
   return (
-    <div className="pikachu-game">
+    <div className={styles['pikachu-game']}>
       <h1>Pikachu Clicker</h1>
       <p>Score: {score}</p>
       <Pikachu position={position} onClick={handleClick} />
