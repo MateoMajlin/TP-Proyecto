@@ -48,6 +48,9 @@ const Adivinanza = () => {
   }
 
   return (
+    <h2>
+        <Link to="/">🔙</Link>
+      </h2>
   <div className={Adiv.adivinanza}>
     <h1>Adivina el Número</h1>
 
