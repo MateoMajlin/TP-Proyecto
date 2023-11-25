@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import Pelotita from './Pelotita.module.css'; 
+import Pelotitae from './Pelotita.module.css'; 
 
 const Pelotita = () => {
   const [jumping, setJumping] = useState(false);
