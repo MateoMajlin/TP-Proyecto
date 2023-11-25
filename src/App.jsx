@@ -5,7 +5,7 @@ import "./App.css";
 function App() {
   return (
     <>
-       <div>
+       <div className="k">
           <h1>🎮JUEGOS K🎮</h1>
         </div>
       <div className="body">
