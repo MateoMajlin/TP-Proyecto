@@ -1,38 +1,44 @@
+/* Estilo del encabezado */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-title {
+  margin: 0;
+}
+
+.navigation {
+  display: flex;
+}
+
+.top {
+  margin: 0 10px;
+}
+
+/* Estilo del cuerpo de la página */
 .body {
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
   padding: 20px;
   display: flex;
-  flex-wrap: wrap; /* Allow items to wrap to the next line */
-  justify-content: center; /* Center items horizontally */
-}
-
-.superior {
-  display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  background-color: #333;
-  color: #fff;
-  padding: 10px 0;
-}
-
-.top {
-  margin: 0;
-}
-
-h1 {
-  text-align: center;
-  color: #333;
 }
 
 .etiqueta {
   font-size: 1.5rem;
+  width: 100%;
   margin-top: 20px;
-  width: 100%; /* Make sure the labels take the full width */
 }
 
 .juego {
   margin: 10px;
-  flex: 0 0 calc(33.33% - 20px); /* Adjust the width of each game box */
+  flex: 0 0 calc(33.33% - 20px);
 }
 
 .juego a {
