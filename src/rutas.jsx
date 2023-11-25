@@ -9,6 +9,7 @@ import JuegoDosJugadores from "./juego/JuegoDosJugadores";
 import JuegoPelea from "./juego/JuegoPelea";
 import TaTeTi from "./juego/TaTeTi";
 import CalculadoraPorcentajes from "./juego/CalculadoraPorcentajes";
+import PikachuGame from "./juego/PikachuGame";
 
 function Rutas() {
   return (
