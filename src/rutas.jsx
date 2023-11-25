@@ -12,15 +12,15 @@ function Rutas() {
   return (
     <Routes>
       <Route exact path="/" element={<App />} />
-      <Route exact path="/JuegoPelea" element={<JuegoPelea />} />
+      <Route exact path="/juego/JuegoPelea" element={<JuegoPelea />} />
       <Route exact path="/Cuenta" element={<Cuenta />} />
       <Route exact path="/Easter" element={<Easter />} />
       <Route exact path="/Cuenta/IniciarSesion" element={<IniciarSesion />} />
       <Route exact path="/Cuenta/CrearCuenta" element={<CrearCuenta />} />
-      <Route exact path="/Adivinanza" element={<Adivinanza />} />
+      <Route exact path="/juego/Adivinanza" element={<Adivinanza />} />
       <Route
         exact
-        path="/JuegoDosJugadores"
+        path="/juego/JuegoDosJugadores"
         element={<JuegoDosJugadores />}
       />
     </Routes>
