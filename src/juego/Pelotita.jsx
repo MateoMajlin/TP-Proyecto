@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import PelotitaStyles from './Pelotita.module.css'; // Corrige el nombre de la importación
+import PelotitaStyles from './Pelotita.module.css';
 
 const Pelotita = () => {
   const [jumping, setJumping] = useState(false);
@@ -32,7 +32,7 @@ const Pelotita = () => {
     return () => {
       window.removeEventListener('keydown', handleKeyPress);
     };
-  }, [jumping]);
+  }, [jumping, handleKeyPress]); // Agrega handleKeyPress al array de dependencias
 
   useEffect(() => {
     const checkBounds = setInterval(() => {
@@ -51,4 +51,4 @@ const Pelotita = () => {
   );
 };
 
-export default Pelotita; // Cambia el nombre de exportación a Pelotita
+export default Pelotita;
