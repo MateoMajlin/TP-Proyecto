@@ -120,6 +120,7 @@ function App() {
           </Link>
         </div>
         </>
+    </>
   );
      }
 export default App;
