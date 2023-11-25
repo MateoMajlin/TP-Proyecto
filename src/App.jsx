@@ -1,4 +1,4 @@
-import App from "./App.module.css";
+import EstilosApp from "./App.module.css";
 import { Link } from 'react-router-dom';
 import "./Adivinanza.jsx";
 function App() {
