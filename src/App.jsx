@@ -20,7 +20,7 @@ function App() {
         <div>
           <h1>"🕹️ JUEGOS K 🕹️"</h1>
         </div>
-        <h2 className="etiqueta">1 JUGADOR 🎮</h2>
+        <h2 className="etiqueta">1 JUGADOR</h2>
         <div className="juego">
           <img
             src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
@@ -49,12 +49,14 @@ function App() {
             src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
             alt="pikapika"
           />
+       <div className="juego">
+          <Link to="./juego/Cartas">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/3894/3894401.png"
+              alt="pikapika"
+            />
+          </Link>
         </div>
-        <div className="juego">
-        <img
-            src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
-            alt="pikapika"
-          />
         </div>
         <div className="juego">
         <Link to="https://www.friv.com/z/games/savagepursuit/game.html?c">
@@ -64,7 +66,7 @@ function App() {
             />
           </Link>
         </div>
-        <h2 className="etiqueta">2 JUGADORES 🎮 🎮</h2>
+        <h2 className="etiqueta">2 JUGADORES</h2>
         <br></br>
        <div className="juego">
           <Link to="./juego/JuegoDosJugadores">
