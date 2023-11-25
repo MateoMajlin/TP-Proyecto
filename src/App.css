@@ -22,20 +22,21 @@ div.juego {
   width: 100px;
   height: 100px;
   text-align: auto;
-  overflow: hidden; /* Evitar que la imagen sobresalga del div */
-  cursor: pointer; /* Cambiar el cursor al pasar sobre la imagen */
-  transition: transform 0.3s; /* Agregar transición para hacer más suave el cambio de tamaño */
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s;
 }
 
 .juego img {
   width: 100%;
   height: auto;
   display: block;
-  transition: transform 0.3s; /* Agregar transición también para la imagen */
+  transition: transform 0.3s;
+  transform: rotate(0deg); /* Evitar rotación de la imagen */
 }
 
 .juego:hover {
-  transform: scale(1.2); /* Hacer más grande al pasar el ratón */
+  transform: scale(1.2);
 }
 
 .etiqueta {
