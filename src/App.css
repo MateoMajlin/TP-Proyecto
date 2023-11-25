@@ -1,6 +1,7 @@
 .body {
   font-family: Arial, sans-serif;
   text-align: center;
+  background: rgb(228, 249, 255);
 }
 
 .superior {
@@ -46,6 +47,7 @@ h1 {
 .juego img {
   width: 50%; 
   padding: auto;
+  box-shadow: 5px 5px 10px rgb(0, 0, 0);
   transition: transform 0.3s;
 }
 img{
@@ -54,5 +56,5 @@ img{
 }
 
 .juego:hover img {
-  transform: scale(1.5);
+  transform: scale(1.05) rotate(-5deg);
 }
