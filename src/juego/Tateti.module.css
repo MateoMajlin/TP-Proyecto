@@ -1,12 +1,13 @@
 :local(.retro-container) {
   text-align: center;
-  font-family: 'Verdana', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: #222;
+  color: #fff;
 }
 
 :local(h1) {
-  color: #ff9900;
+  color: #ffcc00;
   text-shadow: 2px 2px 5px #333;
 }
 
@@ -24,22 +25,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #0099cc;
-  color: #ffffff;
+  background-color: #444;
+  color: #ffcc00;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  border: 2px solid #222;
 }
 
 :local(.casilla:hover) {
-  background-color: #ffcc00;
+  background-color: #555;
 }
 
 :local(.X) {
-  color: #ff3366;
+  color: #ffcc00;
 }
 
 :local(.O) {
-  color: #66cc66;
+  color: #00cc66;
 }
 
 :local(.mensaje) {
@@ -49,8 +51,8 @@
 }
 
 :local(.reiniciar) {
-  background-color: #0099cc;
-  color: #ffffff;
+  background-color: #444;
+  color: #ffcc00;
   font-size: 16px;
   padding: 10px 20px;
   margin-top: 20px;
@@ -60,5 +62,5 @@
 }
 
 :local(.reiniciar:hover) {
-  background-color: #ffcc00;
+  background-color: #555;
 }
