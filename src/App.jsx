@@ -69,7 +69,7 @@ function App() {
           </Link>
         </div>
         <h2 className="etiqueta">2 JUGADORES</h2>
-        
+        <br></br>
        <div className="juego">
           <Link to="./juego/JuegoDosJugadores">
             <img
