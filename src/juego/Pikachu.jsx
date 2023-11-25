@@ -1,12 +1,11 @@
 import React from 'react';
 import pikachuImage from './pikachu.png';
+import styles from './Pikachu.module.css';
 
 const Pikachu = ({ position, onClick }) => {
   const style = {
-    position: 'absolute',
     top: position.y,
     left: position.x,
-    cursor: 'pointer',
   };
 
   return (
@@ -15,7 +14,7 @@ const Pikachu = ({ position, onClick }) => {
       alt="Pikachu"
       style={style}
       onClick={onClick}
-      className="pikachu"
+      className={styles.pikachu}
     />
   );
 };
