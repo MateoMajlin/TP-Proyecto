@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from "./JuegoRaro.module.css";
+import { Link } from "react-router-dom";
 
 const CalculadoraPorcentajes = () => {
   const [cantidad, setCantidad] = useState("");
