@@ -32,7 +32,7 @@ function App() {
         <div className="juego">
           <Link to="./Adivinanza">
             <img
-              src="https://cdn.pixabay.com/photo/2016/03/31/19/58/riddle-1295268_960_720.png"
+              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alamy.es%2Fdiez-numeros-de-colores-del-arco-iris-desde-uno-a-cero-formando-un-circulo-con-signo-de-interrogacion-rojo-en-el-medio-como-simbolo-de-la-numerologia-y-la-adivinacion-image235595083.html&psig=AOvVaw215jCuJTy1_853_SVSIpnM&ust=1700962615552000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNCzqtaB3oIDFQAAAAAdAAAAABAE"
               alt="pikapika"
             />
           </Link>
