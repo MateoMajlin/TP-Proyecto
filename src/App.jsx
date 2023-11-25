@@ -63,12 +63,14 @@ function App() {
           />
         </div>
         <h2 className="etiqueta">2 Jugadores</h2>
-        <div className="juego">
-           <Link to="./JuegoDosJugadores">
+        
+       <div className="juego">
+          <Link to="./JuegoDosJugadores">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNF-1cfNRlyGgOT_4emHVmZpewEGjSXtXzmIrkE_Uldyawa6VwiC7jGfD7pxtprHCJ0vc&usqp=CAU"
+              src="https://cdn.pixabay.com/photo/2016/03/31/19/58/riddle-1295268_960_720.png"
               alt="pikapika"
             />
+          </Link>
         </div>
         <div className="juego">
           <img
