@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Adiv from "./Adivinanza.module.css";
+import { Link } from "react-router-dom";
 
 const Adivinanza = () => {
 
