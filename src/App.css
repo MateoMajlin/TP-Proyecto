@@ -6,43 +6,43 @@ body {
 
 h1 {
     text-align: center;
-    background-color: #f7931e; /* Color naranja de Poki Juegos */
+    background-color: #f7931e;
     margin-top: 0;
     margin-bottom: 0;
-    padding: 20px 0; /* Añadido un espacio interno */
+    padding: 5vw 0; /* Uso de vw para el padding */
 }
 
 div {
-    background: #eedd82; /* Color amarillo burlywood */
+    background: #eedd82;
     margin: 0;
-    padding: 10px; /* Añadido un espacio interno */
+    padding: 2vw; /* Uso de vw para el padding */
 }
 
 div.juego {
-    border: 5px solid #000;
+    border: 0.5vw solid #000; /* Uso de vw para el border */
     background-color: #fff;
     display: inline-block;
-    margin: 10px;
-    width: 100px;
-    height: 100px;
+    margin: 2vw;
+    width: 20vw; /* Uso de vw para el width */
+    height: 20vw; /* Uso de vw para el height */
     text-align: center;
 }
 
 .juego img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ajusta la imagen manteniendo la proporción y cubriendo completamente el contenedor */
+    object-fit: cover;
 }
 
 .etiqueta {
-    background-color: #808080; /* Color gris */
+    background-color: #808080;
     margin-top: 0;
-    padding: 5px; /* Añadido un espacio interno */
+    padding: 1vw; /* Uso de vw para el padding */
 }
 
 .superior {
     display: flex;
     justify-content: space-between;
-    background-color: #c44550; /* Color rojo de Poki Juegos */
-    padding: 10px; /* Añadido un espacio interno */
+    background-color: #c44550;
+    padding: 2vw; /* Uso de vw para el padding */
 }
