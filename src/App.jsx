@@ -47,11 +47,13 @@ function App() {
         </div>
         <br></br>
          <div className="juego">
-          <img
-            src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
-            alt="pikapika"
-          />
-        <div className="juego">
+          <Link to=": https://www.macrojuegos.com/juegos/power-pamplona~18500/ ">
+            <img
+              src="https://data.gameflare.com/games/10024/qaXrTYIRTNioTd-400-300.jpg"
+              alt="pikapika"
+            />
+          </Link>
+        </div>
         <Link to="https://www.friv.com/z/games/savagepursuit/game.html?c">
             <img
               src="https://images.squarespace-cdn.com/content/v1/5b73289c7e3c3af73df73f0d/1616452865068-L71CH1I8U172K6KUFLAP/B10_header.jpg"
