@@ -1,4 +1,4 @@
-import "./Juego.css";
+import Juego from "./Juego.module.css";
 import { useState } from "react";
 
 const JuegoPelea = () => {
@@ -31,12 +31,12 @@ const JuegoPelea = () => {
 
   const reiniciarJuego = () => {
     setJugador1({
-      nombre: "Heroe",
+      nombre: "Jugador 1",
       vida: 100
     });
 
     setJugador2({
-      nombre: "Villano",
+      nombre: "Jugador 2",
       vida: 100
     });
 
@@ -44,26 +44,26 @@ const JuegoPelea = () => {
   };
 
   return (
-    <div className="pelea-container">
+    <div className={Juego.pelea}>
       <h1>Juego de Pelea</h1>
 
-      <div className="jugadores">
-        <div className="jugador">
+      <div className={Juego.jugadores}>
+        <div className={Juego.jugador}>
           <p>{jugador1.nombre}</p>
           <p>Vida: {jugador1.vida}</p>
           <button onClick={() => atacar(jugador1, jugador2)}>Atacar</button>
         </div>
 
-        <div className="jugador">
+        <div className={Juego.jugador}>
           <p>{jugador2.nombre}</p>
           <p>Vida: {jugador2.vida}</p>
           <button onClick={() => atacar(jugador2, jugador1)}>Atacar</button>
         </div>
       </div>
 
-      <p className="mensaje">{mensaje}</p>
+      <p className={Juego.mensaje}>{mensaje}</p>
 
-      <button className="reiniciar" onClick={reiniciarJuego}>
+      <button className={Juego.reiniciar} onClick={reiniciarJuego}>
         Reiniciar Juego
       </button>
     </div>
