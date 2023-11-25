@@ -12,6 +12,8 @@ import CrearCuenta from "./CrearCuenta";
 
 import Adivinanza from "./Adivinanza";
 
+import JuegoDosJugadores from "./JuegoDosJugadores";
+
 function Rutas() {
 
   return (
@@ -77,6 +79,17 @@ function Rutas() {
           path="/Adivinanza"  
 
           element={<Adivinanza />}
+
+        />
+
+      </Routes>
+        <Route  
+
+          exact
+
+          path="/JuegoDosJugadores"  
+
+          element={<JuegoDosJugadores />}
 
         />
 
