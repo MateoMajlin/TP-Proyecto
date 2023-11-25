@@ -118,7 +118,6 @@ function App() {
             />
           </Link>
         </div>
-      </div>
     </>
   );
 }
