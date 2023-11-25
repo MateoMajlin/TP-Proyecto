@@ -1,71 +1,50 @@
-body{
-
-margin: 0ig;
-
+body {
+  margin: 0;
 }
 
-h1{
-
-text-align: center;
-
-background-color: aquamarine;
-
-margin-top: 0;
-
-margin-bottom: 0;
-
+h1 {
+  text-align: center;
+  background-color: aquamarine;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
-div{
-
-background: burlywood;
-
-margin: 0px;
-
+div {
+  background: burlywood;
+  margin: 0;
 }
 
-div.juego{
-
-border: 5px solid black;
-
-background-color: white;
-
-display: inline-block;
-
-margin: 10px;
-
-width: 100px;
-
-height: 100px;
-
-text-align: auto;
-
+div.juego {
+  border: 5px solid black;
+  background-color: white;
+  display: inline-block;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  text-align: auto;
+  overflow: hidden; /* Evitar que la imagen sobresalga del div */
+  cursor: pointer; /* Cambiar el cursor al pasar sobre la imagen */
+  transition: transform 0.3s; /* Agregar transición para hacer más suave el cambio de tamaño */
 }
 
-.juego img{
-
-width: 100%;
-
-height: auto;
-
-display: block;
-
+.juego img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s; /* Agregar transición también para la imagen */
 }
 
-.etiqueta{
-
-background-color: grey;
-
-margin-top: 0;
-
+.juego:hover {
+  transform: scale(1.2); /* Hacer más grande al pasar el ratón */
 }
 
-.superior{
+.etiqueta {
+  background-color: grey;
+  margin-top: 0;
+}
 
-display: flex;
-
-justify-content: space-between;
-
-background-color: rgb(196, 69, 80);
-
+.superior {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(196, 69, 80);
 }
