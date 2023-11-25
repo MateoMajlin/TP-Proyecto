@@ -2,6 +2,9 @@
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center; /* Center items horizontally */
 }
 
 .superior {
@@ -24,10 +27,12 @@ h1 {
 .etiqueta {
   font-size: 1.5rem;
   margin-top: 20px;
+  width: 100%; /* Make sure the labels take the full width */
 }
 
 .juego {
   margin: 10px;
+  flex: 0 0 calc(33.33% - 20px); /* Adjust the width of each game box */
 }
 
 .juego a {
