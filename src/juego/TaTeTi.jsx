@@ -8,31 +8,30 @@ const TaTeTi = () => {
   const [ganador, setGanador] = useState(null);
 
   const comprobarGanador = () => {
-  const lineasGanadoras = [
-    [0, 1, 2],
-    [3, 4, 5],
-    [6, 7, 8],
-    [0, 3, 6],
-    [1, 4, 7],
-    [2, 5, 8],
-    [0, 4, 8],
-    [2, 4, 6]
-  ];
+    const lineasGanadoras = [
+      [0, 1, 2],
+      [3, 4, 5],
+      [6, 7, 8],
+      [0, 3, 6],
+      [1, 4, 7],
+      [2, 5, 8],
+      [0, 4, 8],
+      [2, 4, 6]
+    ];
 
-  for (let i = 0; i < lineasGanadoras.length; i++) {
-    const [a, b, c] = lineasGanadoras[i];
+    for (let i = 0; i < lineasGanadoras.length; i++) {
+      const [a, b, c] = lineasGanadoras[i];
 
-    if (tablero[a] && tablero[a] === tablero[b] && tablero[a] === tablero[c]) {
-      setGanador(tablero[a]);
-      return;
+      if (tablero[a] && tablero[a] === tablero[b] && tablero[a] === tablero[c]) {
+        setGanador(tablero[a]);
+        return;
+      }
     }
-  }
 
-  if (!tablero.includes(null) && !ganador) {
-    setGanador("Empate");
-  }
-};
-
+    if (!tablero.includes(null) && !ganador) {
+      setGanador("Empate");
+    }
+  };
 
   const manejarClick = (indice) => {
     if (tablero[indice] || ganador) {
@@ -56,35 +55,36 @@ const TaTeTi = () => {
 
   return (
     <>
-  <h2>
-    <Link to="/">🔙</Link>
-  </h2>
-  <div className={Tateti["retro-container"]}>
-    <h1>TA-TE-TI</h1>
-      <div className={Tateti.tablero}>
-        {tablero.map((valor, indice) => (
-          <div 
-            key={indice}
-            className={`${Tateti.casilla} ${valor}`}
-            onClick={() => manejarClick(indice)}
-          >
-            {valor}
-          </div>
-        ))}
-      </div>
-
-      {ganador && (
-        <div className={Tateti.mensaje}>
-          {ganador === "Empate" 
-            ? "¡Es un empate!"
-            : `${ganador} ha ganado!`}
+      <h2>
+        <Link to="/">🔙</Link>
+      </h2>
+      <div className={Tateti["retro-container"]}>
+        <h1>TA-TE-TI</h1>
+        <div className={Tateti.tablero}>
+          {tablero.map((valor, indice) => (
+            <div 
+              key={indice}
+              className={`${Tateti.casilla} ${valor}`}
+              onClick={() => manejarClick(indice)}
+            >
+              {valor}
+            </div>
+          ))}
         </div>
-      )}
 
-      <button className={Tateti.reiniciar} onClick={reiniciarJuego}>
-        Reiniciar Juego
-      </button>
-    </div>
+        {ganador && (
+          <div className={Tateti.mensaje}>
+            {ganador === "Empate" 
+              ? "¡Es un empate!"
+              : `${ganador} ha ganado!`}
+          </div>
+        )}
+
+        <button className={Tateti.reiniciar} onClick={reiniciarJuego}>
+          Reiniciar Juego
+        </button>
+      </div>
+    </>
   );
 };
 
