@@ -61,10 +61,12 @@ function App() {
           </Link>
         </div>
         <div className="juego">
-          <img
-            src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
-            alt="pikapika"
-          />
+        <Link to="https://www.friv.com/z/games/savagepursuit/game.html?c">
+            <img
+              src="https://cn.i.cdn.ti-platform.com/cnemea/content/1185/game/savage-pursuit/za/savagepursuit-b10c-cover-en.jpg "
+              alt="pikapika"
+            />
+          </Link>
         </div>
         <h2 className="etiqueta">2 JUGADORES</h2>
         
