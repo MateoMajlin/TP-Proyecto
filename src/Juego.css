@@ -1,0 +1,61 @@
+body {
+  background-image: url('https://play-lh.googleusercontent.com/XpOXYXKfFypLg8iprlp9kBwhHi0v0k83O4GhWOUe9Yip9QokmIqUqpltEM4yFGHbOV4');
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 30%;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.pelea-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #333;
+}
+
+h1 {
+  font-size: 48px;
+  text-shadow: 2px 2px 0 red;
+}
+
+.jugadores {
+  display: flex;
+}
+
+.jugador {
+  margin: 10px; 
+  text-align: center;
+}
+
+.jugador p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid red; 
+  background-color: #444;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: red;
+}
+
+.mensaje {
+  font-size: 32px;
+  text-shadow: 1px 1px 0 black;
+}
+
+.reiniciar { 
+  font-size: 20px;
+  margin: 20px;
+}
