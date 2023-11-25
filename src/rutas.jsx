@@ -14,6 +14,8 @@ import Adivinanza from "./Adivinanza";
 
 import JuegoDosJugadores from "./JuegoDosJugadores";
 
+import JuegoPelea from "./JuegoPelea";
+
 function Rutas() {
 
   return (
@@ -29,6 +31,17 @@ function Rutas() {
           path="/"  
 
           element={<App />} 
+
+        />  
+        <Routes>
+
+        <Route  
+
+          exact 
+
+          path="/JuegoPelea"  
+
+          element={<JuegoPelea />} 
 
         />  
 
