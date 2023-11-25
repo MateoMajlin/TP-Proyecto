@@ -103,17 +103,21 @@ function App() {
             />
           </Link>
         </div>
-        <div className="juego">
-          <img
-            src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
-            alt="pikapika"
-          />
+      <div className="juego">
+        <Link to="https://www.juegos.com/juego/nino-fuego-y-nina-agua-2-templo-de-luz">
+            <img
+              src="https://extinfenix.com/wp-content/uploads/2021/03/fire-and-water-2354583_1920.jpg"
+              alt="pikapika"
+            />
+          </Link>
         </div>
-        <div className="juego">
-          <img
-            src="https://i.pinimg.com/originals/dc/ab/b7/dcabb7fbb2f763d680d20a3d228cc6f9.jpg"
-            alt="pikapika"
-          />
+    <div className="juego">
+        <Link to="https://poki.com/es/g/temple-of-boom">
+            <img
+              src="https://www.nationalgeographic.com.es/medio/2022/12/12/rana-1_66a9a5c8_221212161515_1280x720.jpg"
+              alt="pikapika"
+            />
+          </Link>
         </div>
       </div>
     </>
