@@ -17,10 +17,17 @@
 }
 
 .top {
-  margin: 0 10px;
+
+background-color: grey;
+
+margin-top: 0;
+
+display: flex;
+
+justify-content: space-between;
+
 }
 
-/* Estilo del cuerpo de la página */
 .body {
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f4;
