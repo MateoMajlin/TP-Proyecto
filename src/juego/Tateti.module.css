@@ -1,13 +1,16 @@
 :local(.retro-container) {
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Verdana', sans-serif;
   padding: 20px;
-  background-color: #222;
-  color: #fff;
+  background-color: #f0f0f0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 :local(h1) {
-  color: #ffcc00;
+  color: #ff9900;
   text-shadow: 2px 2px 5px #333;
 }
 
@@ -25,23 +28,22 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #444;
-  color: #ffcc00;
+  background-color: #0099cc;
+  color: #ffffff;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  border: 2px solid #222;
 }
 
 :local(.casilla:hover) {
-  background-color: #555;
+  background-color: #ffcc00;
 }
 
 :local(.X) {
-  color: #ffcc00;
+  color: #ff3366;
 }
 
 :local(.O) {
-  color: #00cc66;
+  color: #66cc66;
 }
 
 :local(.mensaje) {
@@ -51,8 +53,8 @@
 }
 
 :local(.reiniciar) {
-  background-color: #444;
-  color: #ffcc00;
+  background-color: #0099cc;
+  color: #ffffff;
   font-size: 16px;
   padding: 10px 20px;
   margin-top: 20px;
@@ -62,5 +64,5 @@
 }
 
 :local(.reiniciar:hover) {
-  background-color: #555;
+  background-color: #ffcc00;
 }
