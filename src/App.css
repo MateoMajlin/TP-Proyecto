@@ -1,71 +1,56 @@
- body{
-
-margin: 0ig;
-
+html,
+body {
+  height: 100%;
+  margin: 0; 
+  font-family: Arial;
 }
 
-h1{
-
-text-align: center;
-
-background-color: aquamarine;
-
-margin-top: 0;
-
-margin-bottom: 0;
-
+h1 {
+  text-align: center;
+  background-color: #EEE; 
+  padding: 20px;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  margin: 0;   
 }
 
-div{
-
-background: burlywood;
-
-margin: 0px;
-
+.contenedor {
+  background: #DDD;
+  padding: 40px;
+  display: flex; 
+  flex-wrap: wrap;
+  align-items: flex-start; 
+  overflow-y: auto;
 }
 
-div.juego{
-
-border: 5px solid black;
-
-background-color: white;
-
-display: inline-block;
-
-margin: 10px;
-
-width: 100px;
-
-height: 100px;
-
-text-align: auto;
-
+.juego {
+  width: 200px;
+  border: 1px solid #999;
+  overflow: hidden;
+  margin: 20px;
+  background: white; 
+  border-radius: 12px;
+  height: 300px;  
 }
 
-.juego img{
-
-width: 100%;
-
-height: auto;
-
-display: block;
-
+.juego img {
+  width: 100%;
+  height: auto;    
+  border-radius: 12px 12px 0 0;     
 }
 
-.etiqueta{
-
-background-color: grey;
-
-margin-top: 0;
-
+.etiqueta {
+  background: #BBB;   
+  padding: 8px;
+  font-weight: bold;
+  text-align: center;        
+  margin-top: 0;
 }
 
-.superior{
-
-display: flex;
-
-justify-content: space-between;
-
-background-color: rgb(196, 69, 80);
-
+header {
+  background: #AD2C50;
+  color: white;   
+  padding: 20px 40px;         
+  display: flex;
+  justify-content: space-between;   
 }
