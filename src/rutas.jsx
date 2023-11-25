@@ -35,6 +35,12 @@ function Rutas() {
         element={<CrearCuenta />}
       />
     </Routes>
+       <Route
+        exact
+        path="/Adivinanza"
+        element={<Adivinanza />}
+      />
+    </Routes>
     </>
   );
 }
