@@ -20,6 +20,10 @@ const CalculadoraPorcentajes = () => {
   };
 
   return (
+     <>
+    <h2>
+        <Link to="/">🔙</Link>
+      </h2>
     <div className={styles["calculadora-container"]}>
       <h1>Calculadora de Porcentajes del Pibe K</h1>
       <div className={styles["input-container"]}>
@@ -48,6 +52,7 @@ const CalculadoraPorcentajes = () => {
         </div>
       )}
     </div>
+     </>
   );
 };
 
