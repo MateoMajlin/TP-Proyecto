@@ -1,49 +1,47 @@
-body {
-  margin: 0
-}
-
-h1 {
-  text-align: center;
-  background-color: aquamarine;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-div {
-  background: burlywood;
-  margin: 0;
-}
-
-div.juego {
-  border: 5px solid black;
-  background-color: white;
-  display: inline-block;
-  margin: 10px;
-  width: 100px;
-  height: 100px;
-  text-align: auto;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.juego img {
-  width: 100%;
-  height: auto;
-  display: block;
-  transition: transform 0.3s;
-}
-
-.juego:hover {
-  transform: scale(1.2);
-}
-
-.etiqueta {
-  background-color: grey;
-  margin-top: 0;
+.body {
+  font-family: Arial, sans-serif;
+  text-align: center;  
 }
 
 .superior {
+  background-color: #3472cf;
+  overflow: hidden;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(196, 69, 80);
+}
+
+.top {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;  
+}
+
+.top:hover {
+  background-color: #ddd;
+  color: black;
+}
+   
+h1 {
+  font-size: 50px;   
+}
+
+.etiqueta {
+  font-size: 30px;
+  margin: 20px 0; 
+}
+
+.juego {
+  display: inline-block;
+  width: 30%;
+  margin: 0 1.5%;
+  border: 5px solid black;  
+  border-radius: 10px;
+}
+
+.juego img {
+  width: 25%;
+  border-radius: 10px;
+  padding: auto;
 }
