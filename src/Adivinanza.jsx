@@ -19,7 +19,7 @@ const Adivinanza = () => {
       setIntentos(intentos + 1);
 
       if (numeroIngresado === numeroAleatorio) {
-        setMensaje(¡Correcto! Adivinaste el número en ${intentos} intentos.);
+        setMensaje(Correcto! Adivinaste el número en ${intentos} intentos.);
       } else if (numeroIngresado < numeroAleatorio) {
         setMensaje("El número es demasiado bajo. Intenta de nuevo.");
       } else {
