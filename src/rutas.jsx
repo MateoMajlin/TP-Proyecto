@@ -9,6 +9,7 @@ import JuegoDosJugadores from "./juego/JuegoDosJugadores";
 import JuegoPelea from "./juego/JuegoPelea";
 import TaTeTi from "./juego/TaTeTi";
 import CalculadoraPorcentajes from "./juego/CalculadoraPorcentajes";
+import Cartas from "./juego/Cartas";
 
 
 function Rutas() {
@@ -19,6 +20,7 @@ function Rutas() {
        <Route exact path="/juego/TaTeTi" element={<TaTeTi />} />
        <Route exact path="/juego/CalculadoraPorcentajes" element={<CalculadoraPorcentajes />} />
       <Route exact path="/Cuenta" element={<Cuenta />} />
+      <Route exact path="/Cartas" element={<Cartas />} />
       <Route exact path="/Easter" element={<Easter />} />
       <Route exact path="/Cuenta/IniciarSesion" element={<IniciarSesion />} />
       <Route exact path="/Cuenta/CrearCuenta" element={<CrearCuenta />} />
