@@ -8,7 +8,7 @@ function App() {
     <>
       {nombreUsuario && (
           <div className="user">
-            ¡Bienvenido, {nombreUsuario} a los increibles 🎮JUEGOS K🎮!
+            ¡Bienvenido/a, {nombreUsuario} a los increibles 🎮JUEGOS K🎮!
           </div>
         )}
        <div className="k">
