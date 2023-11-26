@@ -1,1 +1,49 @@
+/* Cuenta.module.css */
+
+.blog-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+nav {
+  background-color: #8e44ad; /* Violeta oscuro */
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+.formulario {
+  margin-top: 20px;
+}
+
+.h4 {
+  color: #8e44ad; /* Violeta oscuro */
+}
+
+.datos {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.boton {
+  background-color: #8e44ad; /* Violeta oscuro */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #673ab7; /* Violeta más claro al pasar el mouse */
+}
 
