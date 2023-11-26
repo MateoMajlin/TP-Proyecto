@@ -43,6 +43,7 @@ h1 {
    text-align: left;
   font-size: 24px;
   font-family: 'Pacifico', cursive;
+  color: black;
 }
 
 .juego {
@@ -55,11 +56,6 @@ margin: 0 1.5%;
 .top:hover {
   background-color: #ddd;
   color: black;
-}
-
-.etiqueta {
-  font-size: 30px;
-  margin: 20px 0;
 }
 
 .juego img {
