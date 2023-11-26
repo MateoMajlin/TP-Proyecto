@@ -39,7 +39,7 @@ function Cuenta() {
   return (
     <div className="blog-container">
       <header>
-        <img src="https://cdn4.iconfinder.com/data/icons/communication-v2/64/number_numero_count_thirty_five-2-512.png" alt="logo" />
+        <img src="https://media.istockphoto.com/id/1324673294/es/foto/consola-de-videojuegos-hombre-jugando-rpg-juego-de-estrategia.jpg?s=612x612&w=0&k=20&c=HDzXeYWvwxhuf1IASoRtobb-nghBMBFdX7k0GOe4Ww0=" alt="logo" />
         <nav className="nav-menu">
           <ul>
             <li>
