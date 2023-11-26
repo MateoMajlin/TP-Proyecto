@@ -1,27 +1,33 @@
 body {
-  /* ... */
+  background: #1C1C1C;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;  
   display: flex;
   align-items: center;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .blog-container {
   width: 400px;
-  max-width: 85%;
+  max-width: 85%; 
   margin: 0 auto;
-  text-align: center;
+  text-align: center;  
+  /* Otros estilos */
 }
 
 .formulario {
   max-width: 320px;
-  margin: 0 auto;  
+  margin: 0 auto;   
 }
 
-.datos {
-  max-width: 300px;
-  margin: 0 auto 15px;
-}
+/* Estilos gamer para botones, inputs, etc */
 
 .boton {
-  margin: 0 auto;  
+  padding: 12px 30px;
+  border-radius: 30px;
+  background: #e50914;
+  color: #fff;
+  
+  /* Centrado */
+  margin: 0 auto;
 }
