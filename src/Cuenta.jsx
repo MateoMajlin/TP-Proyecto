@@ -20,9 +20,9 @@ function Cuenta() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    if (nombreUsuario && correo && contrasena) {
+    if (nombreUsuario &&  contrasena) {
       const id = contador;
-      const nuevaCuenta = { nombreUsuario, correo, contrasena, id };
+      const nuevaCuenta = { nombreUsuario, contrasena, id };
       const cuentasActualizadas = [...cuentas, nuevaCuenta];
       setCuentas(cuentasActualizadas);
       localStorage.setItem('cuentas', JSON.stringify(cuentasActualizadas));
