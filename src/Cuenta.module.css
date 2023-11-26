@@ -1,62 +1,27 @@
 body {
-  background: #1C1C1C; 
-  color: #fff;
-  font-family: 'Montserrat', sans-serif;
+  /* ... */
+  display: flex;
+  align-items: center;
+  justify-content: center; 
 }
 
 .blog-container {
   width: 400px;
-  margin: 50px auto;
-  padding: 30px;
-  border-radius: 10px;
-  background: #222227;
-  text-align: center;  
+  max-width: 85%;
+  margin: 0 auto;
+  text-align: center;
 }
 
-header .nav-menu a {
-  color: #b8b8b8;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 18px;
-  letter-spacing: 2px;
-  transition: .3s ease;  
+.formulario {
+  max-width: 320px;
+  margin: 0 auto;  
 }
-
-header .nav-menu a:hover {
-  color: #fefefe;
-}
-
-h4 {
-  font-size: 22px;
-  margin-bottom: 20px;  
-} 
 
 .datos {
-  width: 100%;
-  padding: 10px; 
-  border-radius: 5px;
-  background: transparent;
-  border: 2px solid #555558;
-  color: #fff;
-  margin-bottom: 15px;  
-}
-
-.datos::placeholder {
-  color: #bbb;   
+  max-width: 300px;
+  margin: 0 auto 15px;
 }
 
 .boton {
-  padding: 12px 30px;
-  border: none;  
-  border-radius: 30px;
-  background: #e50914;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 2px;  
-  transition: .3s ease;
-} 
-
-.boton:hover {
-  background: #fc1722;
-  transform: scale(1.05); 
+  margin: 0 auto;  
 }
