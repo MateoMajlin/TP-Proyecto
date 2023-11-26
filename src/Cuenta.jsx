@@ -46,6 +46,7 @@ function Cuenta() {
         </nav>
       </header>
       <form className="formulario" onSubmit={handleSubmit}>
+        <img src="https://www.stec.com.ar/wp-content/uploads/2022/08/pc-gamer-640x360.jpeg" alt="gamer"></img>
         <h4>CREA TU CUENTA!!! para una mejor experiencia 😄</h4>
         <input
           className="datos"
@@ -54,6 +55,7 @@ function Cuenta() {
           placeholder='Escribe tu nombre de usuario'
           onChange={e => setNombreUsuario(e.target.value)}
         />
+        <br />
         <input
           className="datos"
           value={contrasena}
@@ -61,6 +63,7 @@ function Cuenta() {
           placeholder='Escribe tu contraseña'
           onChange={e => setContrasena(e.target.value)}
         />
+        <br />
         <button className="boton">Crear Cuenta</button>
       </form>
     </div>
