@@ -45,12 +45,6 @@ function Cuenta() {
             <li>
               <Link to="/">Volver a la pagina principal</Link>
             </li>
-            <li>
-              <Link to="/blog">Publicar tu post</Link>
-            </li>
-            <li>
-              <Link to="https://www.mercadopago.com.ar/">Apoyanos</Link>
-            </li>
           </ul>
         </nav>
       </header>
