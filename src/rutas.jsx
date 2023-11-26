@@ -2,8 +2,6 @@ import { Routes, Route } from "react-router-dom";
 import App from "./App";
 import Cuenta from "./Cuenta";
 import Easter from "./Easter";
-import IniciarSesion from "./IniciarSesion";
-import CrearCuenta from "./CrearCuenta";
 import Adivinanza from "./juego/Adivinanza";
 import JuegoDosJugadores from "./juego/JuegoDosJugadores";
 import JuegoPelea from "./juego/JuegoPelea";
@@ -20,8 +18,6 @@ function Rutas() {
        <Route exact path="/juego/CalculadoraPorcentajes" element={<CalculadoraPorcentajes />} />
       <Route exact path="/Cuenta" element={<Cuenta />} />
       <Route exact path="/Easter" element={<Easter />} />
-      <Route exact path="/Cuenta/IniciarSesion" element={<IniciarSesion />} />
-      <Route exact path="/Cuenta/CrearCuenta" element={<CrearCuenta />} />
       <Route exact path="/juego/Adivinanza" element={<Adivinanza />} />
       <Route
         exact
