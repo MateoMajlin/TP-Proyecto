@@ -23,7 +23,7 @@ function App() {
             <Link to="/Cuenta">CUENTA</Link>
           </h2>
           <h2 className="top">
-            <Link to="/Easter">EASTER</Link>
+            <Link to="https://www.nyan.cat/">EASTER</Link>
           </h2>
         </div>
       
