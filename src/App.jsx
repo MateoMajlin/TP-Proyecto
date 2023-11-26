@@ -3,8 +3,14 @@ import { Link } from "react-router-dom";
 import "./App.css";
 
 function App() {
+  const nombreUsuario = localStorage.getItem('nombreUsuario');
   return (
     <>
+      {nombreUsuario && (
+          <div className="user">
+            ¡Bienvenido, {nombreUsuario}!
+          </div>
+        )}
        <div className="k">
           <h1>🎮JUEGOS K🎮</h1>
         </div>
