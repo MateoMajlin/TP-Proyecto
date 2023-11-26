@@ -1,33 +1,71 @@
 body {
-  background: #1C1C1C;
-  color: #fff;
-  font-family: 'Montserrat', sans-serif;  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.blog-container {
-  width: 400px;
-  max-width: 85%; 
-  margin: 0 auto;
-  text-align: center;  
-  /* Otros estilos */
-}
-
-.formulario {
-  max-width: 320px;
-  margin: 0 auto;   
-}
-
-/* Estilos gamer para botones, inputs, etc */
-
-.boton {
-  padding: 12px 30px;
-  border-radius: 30px;
-  background: #e50914;
-  color: #fff;
+    background: #1C1C1C;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   
-  /* Centrado */
-  margin: 0 auto;
-}
+  .blog-container {
+    width: 400px;
+    max-width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;  
+  }
+  
+  .nav-menu {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+  
+  .nav-menu ul {
+    list-style: none;  
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-menu li {
+    margin: 0 10px;  
+  }
+  
+  .formulario {
+    max-width: 320px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .formulario img {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  
+  .datos {
+    padding: 8px 15px;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+  }
+  
+  .boton {
+    padding: 12px 30px; 
+    border-radius: 30px;
+    background: #e50914;
+    color: #fff;
+    margin: 0 auto; 
+    width: 100%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .boton:hover {
+    background: #d30600;
+  }
