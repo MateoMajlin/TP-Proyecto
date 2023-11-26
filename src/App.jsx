@@ -39,7 +39,7 @@ function App() {
         <div className="juego">
           <Link to="./juego/Adivinanza">
             <img
-              src="https://img.freepik.com/vector-gratis/calculadora-rosa-sobre-fondo-blanco_1308-74126.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-cntOunZDOAQSX-TBH2fstWxbSaclrfSR-Q&usqp=CAUg"
               alt="pikapika"
             />
           </Link>
@@ -47,7 +47,7 @@ function App() {
          <div className="juego">
           <Link to="./juego/CalculadoraPorcentajes">
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-cntOunZDOAQSX-TBH2fstWxbSaclrfSR-Q&usqp=CAU"
+              src="https://img.freepik.com/vector-gratis/calculadora-rosa-sobre-fondo-blanco_1308-74126.jpg"
               alt="pikapika"
             />
           </Link>
