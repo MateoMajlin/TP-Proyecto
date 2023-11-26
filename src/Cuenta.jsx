@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import './blog.css';
+import './Cuenta.module.css';
 
-function CrearCuenta() {
+function Cuenta() {
   const navigate = useNavigate();
   const [nombreUsuario, setNombreUsuario] = useState("");
   const [correo, setCorreo] = useState("");
@@ -83,4 +83,4 @@ function CrearCuenta() {
   );
 }
 
-export default CrearCuenta;
+export default Cuenta;
