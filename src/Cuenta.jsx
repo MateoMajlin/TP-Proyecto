@@ -40,7 +40,7 @@ function Cuenta() {
         <nav className="nav-menu">
           <ul>
             <li>
-              <Link to="/">Volver a la pagina principal</Link>
+              <Link to="/">VOLVER A LOS INCREIBLES JUEGOS K</Link>
             </li>
           </ul>
         </nav>
