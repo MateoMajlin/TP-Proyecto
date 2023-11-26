@@ -1,0 +1,62 @@
+/* JuegoDos.module.css */
+
+.container {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;  
+  text-align: center;
+  background: #1b1b1b;
+  padding: 20px;
+}
+
+.top {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.top a {
+  color: #fff;
+  font-size: 1.5rem;  
+}
+
+.title {
+  text-transform: uppercase; 
+  font-size: 2.2rem;
+  margin-bottom: 25px;
+}
+
+.label {
+  display: block; 
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.label select {
+  font-size: 1rem;
+  border-radius: 5px;
+  padding: 8px 10px;
+  background: #444;
+  color: #fff;
+  border: none;  
+}
+
+.button {
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: none;
+  background: #e50914; 
+  color: #fff;
+  font-size: 1.1rem; 
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #d30600;
+}
+
+.result {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 20px; 
+}
