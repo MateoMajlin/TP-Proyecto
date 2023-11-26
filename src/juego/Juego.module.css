@@ -1,50 +1,57 @@
 .pelea {
-  background-color: #f0f0f0;
-  border: 2px solid #000;
-  padding: 20px;
-  text-align: center;
-  font-family: 'Press Start 2P', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top {
+  align-self: flex-start;
+}
+
+.top a {
+  font-size: 1.5rem;
+  color: white;  
+}
+
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .jugadores {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
+  display: flex;  
+  gap: 50px;
 }
 
 .jugador {
-  background-color: #ccc;
-  border: 2px solid #000;
-  padding: 10px;
-  width: 150px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  background: #222;
+  color: white;
 }
 
-.jugador p {
-  margin: 0;
-  font-size: 14px;
-}
-
-.jugador button {
-  margin-top: 10px;
-  padding: 5px 10px;
-  font-family: 'Press Start 2P', cursive;
+button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none; 
+  background: #e50914;
+  color: white;
+  font-weight: bold;
   cursor: pointer;
+}
+
+button:hover {
+  background: #d30600;
 }
 
 .mensaje {
-  margin-top: 20px;
-  font-size: 16px;
-  color: #ff0000;
+  font-size: 1.3rem;
+  margin: 20px 0;
+  color: #aaa;
 }
 
-.reiniciar {
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-family: 'Press Start 2P', cursive;
-  cursor: pointer;
-  background-color: #4caf50;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
+.reiniciar { 
+  margin: 0 auto;
 }
