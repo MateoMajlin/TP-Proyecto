@@ -49,7 +49,7 @@ function Cuenta() {
         </nav>
       </header>
       <form className="formulario" onSubmit={handleSubmit}>
-        <h4>Crea tu cuenta</h4>
+        <h4>CREA TU CUENTA!!! para una mejor experiencia 😄</h4>
         <input
           className="datos"
           value={nombreUsuario}
