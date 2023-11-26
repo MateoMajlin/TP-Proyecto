@@ -5,7 +5,6 @@ import './Cuenta.module.css';
 function Cuenta() {
   const navigate = useNavigate();
   const [nombreUsuario, setNombreUsuario] = useState("");
-  const [correo, setCorreo] = useState("");
   const [contrasena, setContrasena] = useState("");
   const [cuentas, setCuentas] = useState([]);
   const [contador, setContador] = useState(0);
@@ -29,7 +28,6 @@ function Cuenta() {
       localStorage.setItem('cuentas', JSON.stringify(cuentasActualizadas));
       setContador(contador + 1);
       setNombreUsuario("");
-      setCorreo("");
       setContrasena("");
       localStorage.setItem('nombreUsuario', nombreUsuario);
       navigate('/');
@@ -56,13 +54,6 @@ function Cuenta() {
           type="text"
           placeholder='Escribe tu nombre de usuario'
           onChange={e => setNombreUsuario(e.target.value)}
-        />
-        <input
-          className="datos"
-          value={correo}
-          type="email"
-          placeholder='Escribe tu correo electrónico'
-          onChange={e => setCorreo(e.target.value)}
         />
         <input
           className="datos"
