@@ -21,9 +21,9 @@ const Easter = () => {
   };
 
   return (
-    <div className={styles['juego-raro']}>
+    <div className={styles['juego-raro']} style={{ height: '100vh', width: '100vw', position: 'relative' }}>
       <button
-        style={{ top: posicion.y, left: posicion.x }}
+        style={{ position: 'absolute', top: posicion.y, left: posicion.x }}
         onClick={manejarClicBoton}
       >
         {emoji}
