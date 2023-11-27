@@ -15,7 +15,7 @@ const Easter = () => {
   };
 
   const obtenerEmojiAleatorio = () => {
-    const emojis = ['🤪', '👽', '🤖', '🦄', '🐙'];
+    const emojis = ['👽', '🤖', '🦄', '🐙'];
     const indiceAleatorio = Math.floor(Math.random() * emojis.length);
     return emojis[indiceAleatorio];
   };
